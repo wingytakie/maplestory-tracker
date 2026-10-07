@@ -1,0 +1,48 @@
+{
+  "Hero": {
+    "className": "Hero",
+    "skills": [
+      { "name": "Ascendant Shadow", "type": "origin", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/job/112/icon" },
+      { "name": "HEXA Raging Blow", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "HEXA Puncture / Beam Blade", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Burning Soul Blade", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Worldreaver", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Combo Instinct", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sword of Burning Soul", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
+    ]
+  },
+  "Paladin": {
+    "className": "Paladin",
+    "skills": [
+      { "name": "Sacred Bastion", "type": "origin", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/job/122/icon" },
+      { "name": "HEXA Divine Echo", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Grand Guardian", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Mighty Mjolnir", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
+    ]
+  },
+  "Dark Knight": {
+    "className": "Dark Knight",
+    "skills": [
+      { "name": "Deadly Darkness", "type": "origin", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/job/132/icon" },
+      { "name": "HEXA Gungnir's Descent", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Spear of Darkness", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Beholder Impact", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
+    ]
+  },
+  "Demon Slayer": {
+    "className": "Demon Slayer",
+    "skills": [
+      { "name": "Nightmare", "type": "origin", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/job/3112/icon" },
+      { "name": "HEXA Demon Impact", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "HEXA Demon Lash", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Demon Awakening", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Spirit of Rage", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Orthrus", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Demon Bane", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
+    ]
+  }
+}
