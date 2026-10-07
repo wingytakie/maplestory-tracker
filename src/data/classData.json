@@ -9,17 +9,20 @@
       { "name": "Worldreaver", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
       { "name": "Combo Instinct", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
       { "name": "Sword of Burning Soul", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
-      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
+      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Hecate", "type": "common", "costType": "sol_hecate", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
     ]
   },
   "Paladin": {
     "className": "Paladin",
     "skills": [
       { "name": "Sacred Bastion", "type": "origin", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/job/122/icon" },
+      { "name": "HEXA Blast / Divine Charge", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
       { "name": "HEXA Divine Echo", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
       { "name": "Grand Guardian", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
       { "name": "Mighty Mjolnir", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
-      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
+      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Hecate", "type": "common", "costType": "sol_hecate", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
     ]
   },
   "Dark Knight": {
@@ -27,8 +30,322 @@
     "skills": [
       { "name": "Deadly Darkness", "type": "origin", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/job/132/icon" },
       { "name": "HEXA Gungnir's Descent", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "HEXA Dark Impale", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
       { "name": "Spear of Darkness", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
       { "name": "Beholder Impact", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Hecate", "type": "common", "costType": "sol_hecate", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
+    ]
+  },
+  "Arch Mage IL": {
+    "className": "Arch Mage IL",
+    "skills": [
+      { "name": "Frozen Lightning", "type": "origin", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/job/222/icon" },
+      { "name": "HEXA Chain Lightning", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "HEXA Frozen Orb", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Ice Age", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Bolt Barrage", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Jupiter Thunder", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
+    ]
+  },
+  "Arch Mage FP": {
+    "className": "Arch Mage FP",
+    "skills": [
+      { "name": "Infernal Flame", "type": "origin", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/job/212/icon" },
+      { "name": "HEXA Flame Sweep", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "HEXA Mist Eruption", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Doomsday Poison", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Poison Nova", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
+    ]
+  },
+  "Bishop": {
+    "className": "Bishop",
+    "skills": [
+      { "name": "Holy Advent", "type": "origin", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/job/232/icon" },
+      { "name": "HEXA Angel Ray", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "HEXA Big Bang", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Benediction", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Angel of Wrath", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Divine Punishment", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
+    ]
+  },
+  "Bowmaster": {
+    "className": "Bowmaster",
+    "skills": [
+      { "name": "Ascendant Snipe", "type": "origin", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/job/312/icon" },
+      { "name": "HEXA Hurricane", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "HEXA Arrow Blaster", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Arrow Rain", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Silhouette Mirage", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
+    ]
+  },
+  "Marksman": {
+    "className": "Marksman",
+    "skills": [
+      { "name": "Final Snipe", "type": "origin", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/job/322/icon" },
+      { "name": "HEXA Snipe", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "HEXA Piercing Arrow", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "True Snipe", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Split Arrow", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
+    ]
+  },
+  "Pathfinder": {
+    "className": "Pathfinder",
+    "skills": [
+      { "name": "Forsaken Relic", "type": "origin", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/job/332/icon" },
+      { "name": "HEXA Cardinal Blast / Discharge", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "HEXA Cardinal Deluge", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Relic Unbound", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Ultimate Blast", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
+    ]
+  },
+  "Night Lord": {
+    "className": "Night Lord",
+    "skills": [
+      { "name": "Life and Death", "type": "origin", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/job/412/icon" },
+      { "name": "HEXA Quad Star", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "HEXA Mark of Night Lord", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Spread Throw", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Shurrikane", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Dark Lord's Omen", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Throwing Star Barrage", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
+    ]
+  },
+  "Shadower": {
+    "className": "Shadower",
+    "skills": [
+      { "name": "Halifaxion", "type": "origin", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/job/422/icon" },
+      { "name": "HEXA Assassinate", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "HEXA Shadow Veil", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Shadow Assault", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Trickblade", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
+    ]
+  },
+  "Dual Blade": {
+    "className": "Dual Blade",
+    "skills": [
+      { "name": "Karma Blade", "type": "origin", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/job/434/icon" },
+      { "name": "HEXA Phantom Blow", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "HEXA Asura's Anger", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Blade Tempest", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Blades of Destiny", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
+    ]
+  },
+  "Buccaneer": {
+    "className": "Buccaneer",
+    "skills": [
+      { "name": "Unfading Wave", "type": "origin", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/job/512/icon" },
+      { "name": "HEXA Octopunch", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "HEXA Super Orb", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Transform", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Lord of the Deep", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
+    ]
+  },
+  "Corsair": {
+    "className": "Corsair",
+    "skills": [
+      { "name": "Dreadnought", "type": "origin", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/job/522/icon" },
+      { "name": "HEXA Rapid Fire", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "HEXA Broadside", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Target Lock", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Nautilus Assault", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
+    ]
+  },
+  "Cannoneer": {
+    "className": "Cannoneer",
+    "skills": [
+      { "name": "Super Cannon", "type": "origin", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/job/532/icon" },
+      { "name": "HEXA Cannon Bazooka", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "HEXA Cannon Buster", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Cannon Slinger", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Big Huge Gigantic Cannonball", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
+    ]
+  },
+  "Dawn Warrior": {
+    "className": "Dawn Warrior",
+    "skills": [
+      { "name": "Astral Eclipse", "type": "origin", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/job/1112/icon" },
+      { "name": "HEXA Solar Slash / Luna Divide", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "HEXA Cosmos", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Rift of Damnation", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Soul Eclipse", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
+    ]
+  },
+  "Blaze Wizard": {
+    "className": "Blaze Wizard",
+    "skills": [
+      { "name": "Eternity", "type": "origin", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/job/1212/icon" },
+      { "name": "HEXA Orbital Flame", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "HEXA Blazing Extinction", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Orbital Inferno", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Savage Flame", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
+    ]
+  },
+  "Wind Archer": {
+    "className": "Wind Archer",
+    "skills": [
+      { "name": "Mistral Spring", "type": "origin", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/job/1312/icon" },
+      { "name": "HEXA Song of Heaven", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "HEXA Trifling Wind", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Howling Gale", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Merciless Gale", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
+    ]
+  },
+  "Night Walker": {
+    "className": "Night Walker",
+    "skills": [
+      { "name": "Silence", "type": "origin", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/job/1412/icon" },
+      { "name": "HEXA Quintuple Star", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "HEXA Shadow Bat", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Shadow Spear", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Greater Dark Servant", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
+    ]
+  },
+  "Thunder Breaker": {
+    "className": "Thunder Breaker",
+    "skills": [
+      { "name": "Ocean Annihilation", "type": "origin", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/job/1512/icon" },
+      { "name": "HEXA Annihilate", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "HEXA Thunderbolt", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Lightning Cascade", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Shark Wave", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
+    ]
+  },
+  "Mihile": {
+    "className": "Mihile",
+    "skills": [
+      { "name": "Durandal", "type": "origin", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/job/5112/icon" },
+      { "name": "HEXA Radiant Cross", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "HEXA Royal Guard", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Shield of Light", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sword of Light", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
+    ]
+  },
+  "Mercedes": {
+    "className": "Mercedes",
+    "skills": [
+      { "name": "Unfading Glory", "type": "origin", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/job/2312/icon" },
+      { "name": "HEXA Ishtar's Ring", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "HEXA Elemental Ghost", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sylphidia", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Irkalla's Wrath", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
+    ]
+  },
+  "Aran": {
+    "className": "Aran",
+    "skills": [
+      { "name": "Hyper Maha", "type": "origin", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/job/2112/icon" },
+      { "name": "HEXA Beyond Blade", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "HEXA Fenrir Crash", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Maha's Fury", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Blizzard Tempest", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
+    ]
+  },
+  "Phantom": {
+    "className": "Phantom",
+    "skills": [
+      { "name": "Defying Fate", "type": "origin", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/job/2412/icon" },
+      { "name": "HEXA Mille Aiguilles", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "HEXA Carte Noir", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Joker", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Blackjack", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
+    ]
+  },
+  "Luminous": {
+    "className": "Luminous",
+    "skills": [
+      { "name": "Harmonic Paradox", "type": "origin", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/job/2712/icon" },
+      { "name": "HEXA Ender", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "HEXA Reflection", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Door of Light", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Aether Conduit", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
+    ]
+  },
+  "Evan": {
+    "className": "Evan",
+    "skills": [
+      { "name": "Zodiac Burst", "type": "origin", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/job/2217/icon" },
+      { "name": "HEXA Mana Burst", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "HEXA Earth Breath", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Dragon Slam", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Zodiac Ray", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
+    ]
+  },
+  "Shade": {
+    "className": "Shade",
+    "skills": [
+      { "name": "Advent of the Fox", "type": "origin", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/job/2512/icon" },
+      { "name": "HEXA Spirit Claw", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "HEXA Fox Spirit", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Spirit Flow", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Spirit Gate", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
+    ]
+  },
+  "Battle Mage": {
+    "className": "Battle Mage",
+    "skills": [
+      { "name": "Crimson Pact", "type": "origin", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/job/3212/icon" },
+      { "name": "HEXA Death Blow", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "HEXA Dark Genesis", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Aura Scythe", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Altar of Annihilation", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
+    ]
+  },
+  "Wild Hunter": {
+    "className": "Wild Hunter",
+    "skills": [
+      { "name": "Nature's Fury", "type": "origin", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/job/3312/icon" },
+      { "name": "HEXA Wild Arrow Blast", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "HEXA Hunting Assistant", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Jaguar Storm", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Primal Fury", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
+    ]
+  },
+  "Mechanic": {
+    "className": "Mechanic",
+    "skills": [
+      { "name": "Ground Zero", "type": "origin", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/job/3512/icon" },
+      { "name": "HEXA AP Salvo Plus", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "HEXA Homing Beacon", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Doomsday Carrier", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Mecha Carrier", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
+    ]
+  },
+  "Xenon": {
+    "className": "Xenon",
+    "skills": [
+      { "name": "Artificial Evolution", "type": "origin", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/job/3612/icon" },
+      { "name": "HEXA Mecha Purge", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "HEXA Aegis System", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Omega Blaster", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Core Overload", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
       { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
     ]
   },
@@ -38,10 +355,242 @@
       { "name": "Nightmare", "type": "origin", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/job/3112/icon" },
       { "name": "HEXA Demon Impact", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
       { "name": "HEXA Demon Lash", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "HEXA Dark Metamorphosis / Demon Cry", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "HEXA Cerberus Chomp / Demonic Descent", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
       { "name": "Demon Awakening", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
       { "name": "Spirit of Rage", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
       { "name": "Orthrus", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
       { "name": "Demon Bane", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Hecate", "type": "common", "costType": "sol_hecate", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
+    ]
+  },
+  "Demon Avenger": {
+    "className": "Demon Avenger",
+    "skills": [
+      { "name": "Requiem", "type": "origin", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/job/3112/icon" },
+      { "name": "HEXA Exceed Execution", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "HEXA Nether Shield", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Demonic Frenzy", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Demonic Blast", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
+    ]
+  },
+  "Blaster": {
+    "className": "Blaster",
+    "skills": [
+      { "name": "Final Vulcan", "type": "origin", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/job/3712/icon" },
+      { "name": "HEXA Shotgun Punch / Magnum Punch", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "HEXA Bunker Buster", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Bunker Buster", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Gatling Punch", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
+    ]
+  },
+  "Kaiser": {
+    "className": "Kaiser",
+    "skills": [
+      { "name": "Might of Nova", "type": "origin", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/job/6112/icon" },
+      { "name": "HEXA Giga Slasher", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "HEXA Tempest Blades", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Guardian of Nova", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Will of Nova", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
+    ]
+  },
+  "Cadena": {
+    "className": "Cadena",
+    "skills": [
+      { "name": "Chain Arts: Unleashed", "type": "origin", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/job/6412/icon" },
+      { "name": "HEXA Chain Arts: Stroke", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "HEXA Chain Arts: Takedown", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Chain Arts: Void", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Chain Arts: Fury", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
+    ]
+  },
+  "Angelic Buster": {
+    "className": "Angelic Buster",
+    "skills": [
+      { "name": "Grand Finale", "type": "origin", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/job/6512/icon" },
+      { "name": "HEXA Trinity", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "HEXA Soul Seeker", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Mighty Mascot", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Superstar Spotlight", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
+    ]
+  },
+  "Kain": {
+    "className": "Kain",
+    "skills": [
+      { "name": "Annihilation", "type": "origin", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/job/6312/icon" },
+      { "name": "HEXA Falling Dust / Strike Arrow", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "HEXA Dragon Fang", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Dragon Burst", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Fatal Blitz", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
+    ]
+  },
+  "Adele": {
+    "className": "Adele",
+    "skills": [
+      { "name": "Maestro", "type": "origin", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/job/15112/icon" },
+      { "name": "HEXA Cleave / Magic Dispatch / Aetherial Arms", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "HEXA Hunting Decree / HEXA Plummet", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Ruin", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Infinity Blade", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Legacy Restoration", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Storm", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
+    ]
+  },
+  "Illium": {
+    "className": "Illium",
+    "skills": [
+      { "name": "Unlimited Crystal", "type": "origin", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/job/15212/icon" },
+      { "name": "HEXA Radiant Javelin", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "HEXA Radiant Orb", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Crystal Ignition", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Gramgazer", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
+    ]
+  },
+  "Khali": {
+    "className": "Khali",
+    "skills": [
+      { "name": "Hex: Sandstorm", "type": "origin", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/job/15412/icon" },
+      { "name": "HEXA Arts: Flurry", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "HEXA Hex: Chakram Split", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Hex: Pandemonium", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Resonate: Judgment", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
+    ]
+  },
+  "Ark": {
+    "className": "Ark",
+    "skills": [
+      { "name": "Endless Nightmare", "type": "origin", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/job/15512/icon" },
+      { "name": "HEXA Basic Charge Drive", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "HEXA Abyssal Charge Drive", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Abyssal Recall", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Infinity Spell", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
+    ]
+  },
+  "Hoyoung": {
+    "className": "Hoyoung",
+    "skills": [
+      { "name": "Sage: Wrath of Gods", "type": "origin", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/job/16412/icon" },
+      { "name": "HEXA Heaven: Earth: Humanity", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "HEXA Clone / Buttering", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sage: Clone Rampage", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Scroll: Tiger of Songyu", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
+    ]
+  },
+  "Lara": {
+    "className": "Lara",
+    "skills": [
+      { "name": "Sun, Moon, and Stars", "type": "origin", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/job/16212/icon" },
+      { "name": "HEXA Eruption: Dragon Vein", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "HEXA Essence Strike", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Big Sun", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Winding Mountain Ridge", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
+    ]
+  },
+  "Kinesis": {
+    "className": "Kinesis",
+    "skills": [
+      { "name": "Another Realm", "type": "origin", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/job/14212/icon" },
+      { "name": "HEXA Ultimate: Metal Press", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "HEXA Ultimate: B.P.M.", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Ultimate: Psychic Tornado", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Law of Gravity", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
+    ]
+  },
+  "Zero": {
+    "className": "Zero",
+    "skills": [
+      { "name": "Chronos", "type": "origin", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/job/10112/icon" },
+      { "name": "HEXA Giga Crash / Wind Cutter", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "HEXA Shadow Rain", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Chrono Break", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Shadow Flash", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
+    ]
+  },
+  "Hayato": {
+    "className": "Hayato",
+    "skills": [
+      { "name": "Jin Sanrenzan", "type": "origin", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/job/4112/icon" },
+      { "name": "HEXA Rai Sanrenzan", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "HEXA Shinsoku", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Battoujutsu Zankou", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Iaijutsu Phantom Blade", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
+    ]
+  },
+  "Kanna": {
+    "className": "Kanna",
+    "skills": [
+      { "name": "Hakumenkonmou Kyuubi", "type": "origin", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/job/4212/icon" },
+      { "name": "HEXA Shikigami Haunting", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "HEXA Nightghost Guide", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Yuki-musume", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Spirit's Domain", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
+    ]
+  },
+  "Lynn": {
+    "className": "Lynn",
+    "skills": [
+      { "name": "Forest Blessing", "type": "origin", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/job/11212/icon" },
+      { "name": "HEXA Strike / Heal", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "HEXA Beast Companion", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Awakening of Nature", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Roar of Nature", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
+    ]
+  },
+  "Ren": {
+    "className": "Ren",
+    "skills": [
+      { "name": "Lotus Blooming", "type": "origin", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/job/16412/icon" },
+      { "name": "HEXA Lotus Strike", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "HEXA Petal Wave", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Lotus Burst", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
+    ]
+  },
+  "Mo Xuan": {
+    "className": "Mo Xuan",
+    "skills": [
+      { "name": "Martial Ascent", "type": "origin", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/job/17212/icon" },
+      { "name": "HEXA Martial Strike", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "HEXA Dragon Fist", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Dragon Ascending", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
+    ]
+  },
+  "Sia Astelle": {
+    "className": "Sia Astelle",
+    "skills": [
+      { "name": "Starlight Memory", "type": "origin", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/job/18212/icon" },
+      { "name": "HEXA Celestial Ray", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "HEXA Starfall", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Constellation Burst", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
+    ]
+  },
+  "Erel Light": {
+    "className": "Erel Light",
+    "skills": [
+      { "name": "Luminous Judgment", "type": "origin", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/job/19212/icon" },
+      { "name": "HEXA Light Slash", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "HEXA Radiant Spear", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
+      { "name": "Light Surge", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
       { "name": "Sol Janus : Dawn / Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
     ]
   }
