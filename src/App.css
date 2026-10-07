@@ -1,0 +1,124 @@
+/* Base Theme Variables */
+:root {
+  --bg-overlay: rgba(255, 255, 255, 0.85);
+  --text-color: #1a1a1a;
+  --nav-bg: rgba(255, 255, 255, 0.95);
+  --border-color: #e2e8f0;
+}
+
+[data-theme='dark'] {
+  --bg-overlay: rgba(15, 23, 42, 0.88);
+  --text-color: #f8fafc;
+  --nav-bg: rgba(15, 23, 42, 0.95);
+  --border-color: #334155;
+}
+
+/* Background Image Container */
+.app-container {
+  min-height: 100vh;
+  /* Replace with your image URL */
+  background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  transition: background-image 0.3s ease;
+}
+
+/* Theme Overlay */
+.content-overlay {
+  min-height: 100vh;
+  background-color: var(--bg-overlay);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: var(--nav-bg);
+  border-bottom: 1px solid var(--border-color);
+  position: relative;
+  backdrop-filter: blur(8px);
+}
+
+.nav-brand {
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+/* Hamburger Icon */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 2rem;
+  height: 2rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 10;
+}
+
+.hamburger span {
+  width: 2rem;
+  height: 0.25rem;
+  background: var(--text-color);
+  border-radius: 10px;
+  transition: all 0.3s linear;
+}
+
+/* Navigation Links & Controls */
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.theme-toggle-btn {
+  background: transparent;
+  border: 1px solid var(--border-color);
+  color: var(--text-color);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.2s ease;
+}
+
+.theme-toggle-btn:hover {
+  opacity: 0.8;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .nav-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: var(--nav-bg);
+    flex-direction: column;
+    padding: 1.5rem 0;
+    border-bottom: 1px solid var(--border-color);
+    display: none;
+  }
+
+  .nav-menu.open {
+    display: flex;
+  }
+}
