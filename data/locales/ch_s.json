@@ -1,0 +1,24 @@
+{
+  "langName": "简体中文",
+  "title": "HEXA 碎片计算器",
+  "subtitle": "设置各个技能的当前等级与目标等级，计算所需 Sol Erda 碎片与 Sol Erda 总量。",
+  "brand": "HEXA 计算器",
+  "themeToggle": "🌓 切换主题",
+  "jobLabel": "职业",
+  "fpdLabel": "每日碎片获取量",
+  "remFragments": "尚需碎片总量",
+  "remSolErda": "尚需 Sol Erda 总量",
+  "daysToGoal": "预计所需天数 (碎片)",
+  "estCompletion": "预计完成日期",
+  "fragmentsInvested": "已投入碎片",
+  "solErdaInvested": "已投入 Sol Erda",
+  "sections": {
+    "skill": "起源技能 (Skill Node)",
+    "mastery": "精通核心 (Mastery Node)",
+    "boost": "强化核心 (Boost Node)",
+    "common": "通用核心 (Common Node)"
+  },
+  "done": "已完成",
+  "fragmentsUnit": "碎片",
+  "solErdaUnit": "Sol Erda"
+}

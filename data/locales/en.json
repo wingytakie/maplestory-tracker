@@ -1,0 +1,23 @@
+{
+  "title": "HEXA Fragment Calculator",
+  "subtitle": "Set each skill's current and goal level to see the Sol Erda Fragments and Sol Erda you still need.",
+  "brand": "HEXA Calculator",
+  "themeToggle": "🌓 Toggle Theme",
+  "jobLabel": "Job class",
+  "fpdLabel": "Fragments per day",
+  "remFragments": "Fragments still needed",
+  "remSolErda": "Sol Erda still needed",
+  "daysToGoal": "Days to goal (fragments)",
+  "estCompletion": "Estimated completion",
+  "fragmentsInvested": "Fragments invested",
+  "solErdaInvested": "Sol Erda invested",
+  "sections": {
+    "skill": "Skill Node",
+    "mastery": "Mastery Node",
+    "boost": "Boost Node",
+    "common": "Common Node"
+  },
+  "done": "Done",
+  "fragmentsUnit": "Fragments",
+  "solErdaUnit": "Sol Erda"
+}

@@ -1,0 +1,38 @@
+{
+  "Adele": {
+    "faction": "flora",
+    "skill": [
+      {
+        "names": { "en": "Maestro", "ch_s": "大师", "ch_t": "大師" },
+        "icon": "maestro.webp",
+        "t": "origin"
+      },
+      {
+        "names": { "en": "Einheit", "ch_s": "团结/合一", "ch_t": "團結/合一" },
+        "icon": "einheit.webp",
+        "t": "ascent"
+      },
+      {
+        "names": { "en": "Aether Ruefe", "ch_s": "第三核心", "ch_t": "第三核心" },
+        "icon": "aether-ruefe.webp", 
+        "t": "third"
+      }
+    ],
+    "mastery": [
+      { "names": { "en": "Cleave", "ch_s": "劈砍", "ch_t": "劈砍" }, "icon": "cleave.webp" },
+      { "names": { "en": "Hunting Decree", "ch_s": "狩猎令", "ch_t": "狩獵令" }, "icon": "hunting-decree.webp" },
+      { "names": { "en": "Impale", "ch_s": "穿刺", "ch_t": "穿刺" }, "icon": "impale.webp" },
+      { "names": { "en": "Aether Forge", "ch_s": "以太forge", "ch_t": "以太forge" }, "icon": "aether-forge.webp" }
+    ],
+    "boost": [
+      { "names": { "en": "Ruin", "ch_s": "废墟", "ch_t": "廢墟" }, "icon": "ruin.webp" },
+      { "names": { "en": "Infinity Blade", "ch_s": "无限之刃", "ch_t": "無限之刃" }, "icon": "infinity-blade.webp" },
+      { "names": { "en": "Legacy Restoration", "ch_s": "遗产恢复", "ch_t": "遺產恢復" }, "icon": "legacy-restoration.webp" },
+      { "names": { "en": "Storm", "ch_s": "风暴", "ch_t": "風暴" }, "icon": "storm.webp" }
+    ],
+    "common": [
+      { "names": { "en": "Sol Janus", "ch_s": "太阳雅努斯", "ch_t": "太陽雅努斯" }, "icon": "sol-janus.webp" },
+      { "names": { "en": "Sol Hecate", "ch_s": "太阳赫卡忒", "ch_t": "太陽赫卡忒" }, "icon": "sol-hecate.webp" }
+    ]
+  }
+}
