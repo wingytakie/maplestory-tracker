@@ -4,8 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title data-i18n="title">HEXA Fragment Calculator</title>
-<link rel="stylesheet" href="styles/main.css">
-<link rel="stylesheet" href="styles/theme.css">
+<link rel="stylesheet" href="./styles/main.css">
+<link rel="stylesheet" href="./styles/theme.css">
 </head>
 <body>
 <main>
@@ -184,9 +184,9 @@ $("#langSelect").onchange = e => loadLanguage(e.target.value);
 
 // Initial Load
 Promise.all([
-  fetch("data/costTables.json").then(r => r.json()),
-  fetch("data/classesData.json").then(r => r.json()),
-  fetch(`data/locales/${S.lang || "en"}.json`).then(r => r.json())
+  fetch("./data/costTables.json").then(r => r.json()),
+  fetch("./data/classesData.json").then(r => r.json()),
+  fetch(`./data/locales/${S.lang || "en"}.json`).then(r => r.json())
 ]).then(([costs, classes, lang]) => {
   TABLES = costs;
   JOBS = classes;
