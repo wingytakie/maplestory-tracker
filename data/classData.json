@@ -1,21 +1,28 @@
 {
   "Hero": {
-    "className": "Hero",
-    "skills": [
-      { "name": "Soul Calibur", "type": "skill", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
-      { "name": "Ultrasonic Slash", "type": "skill", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
-      { "name": "Rage Explosion", "type": "skill", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
-      { "name": "HEXA Raging Blow", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
-      { "name": "HEXA Rising Rage", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
-      { "name": "HEXA Beam Blade / [Furious Edge]", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
-      { "name": "HEXA Puncture / Final Attack / Valhalla", "type": "mastery", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
-      { "name": "Burning Soul Blade", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
-      { "name": "Instinctual Combo", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
-      { "name": "Worldreaver", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
-      { "name": "Sword Illusion", "type": "boost", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
-      { "name": "Sol Janus: Dawn / Sol Janus: Twilight", "type": "common", "costType": "sol_janus", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
-      { "name": "Sol Hecate: Styx / Charon / Phlegethon", "type": "common", "costType": "sol_hecate", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" },
-      { "name": "Blitz Shield / Blitz Burst", "type": "common", "costType": "standard", "iconUrl": "https://maplestory.io/api/GMS/250/item/2430000/icon" }
+    "names": { "en": "Hero", "ch_s": "英雄", "ch_t": "英雄" },
+    "faction": "explorer",
+    "skill": [
+      { "names": { "en": "Spirit Calibur", "ch_s": "魂剑合一", "ch_t": "聖劍降臨" }, "icon": "spirit-calibur.png", "t": "origin" },
+      { "names": { "en": "Ultrasonic Slash", "ch_s": "沉默裂斩", "ch_t": "無聲斬擊" }, "t": "ascent" },
+      { "names": { "en": "Rage Explosion", "ch_s": "", "ch_t": "" }, "t": "third" }
+    ],
+    "mastery": [
+      { "names": { "en": "HEXA Raging Blow", "ch_s": "终极打击VI", "ch_t": "狂暴攻擊VI" } },
+      { "names": { "en": "HEXA Rising Rage", "ch_s": "狂怒连爆VI", "ch_t": "憤怒爆發VI" } },
+      { "names": { "en": "HEXA Beam Blade", "ch_s": "灵刃双月VI", "ch_t": "靈氣之刃VI" } },
+      { "names": { "en": "HEXA Puncture", "ch_s": "烈焰冲斩VI", "ch_t": "烈焰翔斬VI" } }
+    ],
+    "boost": [
+      { "names": { "en": "Burning Soul Blade", "ch_s": "燃灵之剑", "ch_t": "燃燒靈魂之劍" } },
+      { "names": { "en": "Instinctual Combo", "ch_s": "斗争本能", "ch_t": "鬥氣本能" } },
+      { "names": { "en": "Worldreaver", "ch_s": "斗气死亡断层", "ch_t": "空間斬" } },
+      { "names": { "en": "Sword Illusion", "ch_s": "剑影分身", "ch_t": "劍之幻象" } }
+    ],
+    "common": [
+      { "names": { "en": "Sol Janus", "ch_s": "索尔亚努斯", "ch_t": "靈魂雅努斯" }, "icon": "../../common/sol-janus.webp" },
+      { "names": { "en": "Sol Hecate", "ch_s": "索尔赫卡忒", "ch_t": "靈魂赫卡忒" }, "icon": "../../common/sol-hecate.webp" },
+      { "names": { "en": "Blitz Shield", "ch_s": "攻势之盾", "ch_t": "突擊之盾" } }
     ]
   },
   "Dark Knight": {
