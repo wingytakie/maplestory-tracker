@@ -3,58 +3,72 @@
     "names": { "en": "Adele", "ch_s": "阿黛尔", "ch_t": "阿黛爾" },
     "faction": "flora",
     "skill": [
-      {
-        "names": { "en": "Maestro", "ch_s": "大师", "ch_t": "大師" },
-        "icon": "maestro.webp",
-        "t": "origin"
-      },
-      {
-        "names": { "en": "Einheit", "ch_s": "团结/合一", "ch_t": "團結/合一" },
-        "icon": "einheit.webp",
-        "t": "ascent"
-      },
-      {
-        "names": { "en": "Aether Ruefe", "ch_s": "第三核心", "ch_t": "第三核心" },
-        "icon": "aether-ruefe.png", 
-        "t": "third"
-      }
+      { "names": { "en": "Maestro", "ch_s": "万剑破空", "ch_t": "無限劍製" }, "icon": "maestro.webp", "t": "origin" },
+      { "names": { "en": "Einheit", "ch_s": "终战之剑", "ch_t": "統一" }, "icon": "einheit.webp", "t": "ascent" },
+      { "names": { "en": "Aether Ruefe", "ch_s": "第三核心", "ch_t": "第三核心" }, "icon": "aether-ruefe.png", "t": "third" }
     ],
     "mastery": [
-      { "names": { "en": "Cleave", "ch_s": "劈砍", "ch_t": "劈砍" }, "icon": "cleave.webp" },
-      { "names": { "en": "Hunting Decree", "ch_s": "狩猎令", "ch_t": "狩獵令" }, "icon": "hunting-decree.webp" },
-      { "names": { "en": "Impale", "ch_s": "穿刺", "ch_t": "穿刺" }, "icon": "impale.webp" },
-      { "names": { "en": "Aether Forge", "ch_s": "以太forge", "ch_t": "以太forge" }, "icon": "aether-forge.webp" }
+      { "names": { "en": "Cleave", "ch_s": "斩决", "ch_t": "切割" }, "icon": "cleave.webp" },
+      { "names": { "en": "Hunting Decree", "ch_s": "御剑追击", "ch_t": "追蹤" }, "icon": "hunting-decree.webp" },
+      { "names": { "en": "Impale", "ch_s": "共振VI", "ch_t": "魔劍共鳴" }, "icon": "impale.webp" },
+      { "names": { "en": "Aether Forge", "ch_s": "缔造", "ch_t": "創造" }, "icon": "aether-forge.webp" }
     ],
     "boost": [
-      { "names": { "en": "Ruin", "ch_s": "废墟", "ch_t": "廢墟" }, "icon": "ruin.webp" },
-      { "names": { "en": "Infinity Blade", "ch_s": "无限之刃", "ch_t": "無限之刃" }, "icon": "infinity-blade.webp" },
-      { "names": { "en": "Legacy Restoration", "ch_s": "遗产恢复", "ch_t": "遺產恢復" }, "icon": "legacy-restoration.webp" },
-      { "names": { "en": "Storm", "ch_s": "风暴", "ch_t": "風暴" }, "icon": "storm.webp" }
+      { "names": { "en": "Ruin", "ch_s": "毁灭之剑", "ch_t": "毀滅" }, "icon": "ruin.webp" },
+      { "names": { "en": "Infinity Blade", "ch_s": "无穷之域", "ch_t": "無限" }, "icon": "infinity-blade.webp" },
+      { "names": { "en": "Legacy Restoration", "ch_s": "力量复原", "ch_t": "復原" }, "icon": "legacy-restoration.webp" },
+      { "names": { "en": "Storm", "ch_s": "飓风剑", "ch_t": "乙太風暴" }, "icon": "storm.webp" }
     ],
     "common": [
       { "names": { "en": "Sol Janus", "ch_s": "索尔亚努斯", "ch_t": "靈魂雅努斯" }, "icon": "../../common/sol-janus.webp" },
       { "names": { "en": "Sol Hecate", "ch_s": "索尔赫卡忒", "ch_t": "靈魂赫卡忒" }, "icon": "../../common/sol-hecate.webp" }
     ]
   },
+  "Hoyoung": {
+    "names": { "en": "Hoyoung", "ch_s": "虎影", "ch_t": "虎影" },
+    "faction": "anima",
+    "skill": [
+      { "names": { "en": "Sage: Apotheosis", "ch_s": "仙技：破天荒", "ch_t": "仙技：開天闢地" }, "icon": "sage-apotheosis.webp", "t": "origin" },
+      { "names": { "en": "Millennium Spirit", "ch_s": "天世挥领", "ch_t": "天世揮靈" }, "icon": "millennium-spirit.webp", "t": "ascent" },
+      { "names": { "en": "Sage: Liberated Four Perils Taotie", "ch_s": "仙技", "ch_t": "仙技" }, "icon": "talisman-eruption.png", "t": "third" }
+    ],
+    "mastery": [
+      { "names": { "en": "HEXA Heaven: Consuming Flames / Earth: Stone Tremor / Humanity: Gold-Banded Cudgel / [Universal Harmony]", "ch_s": "灭邪火：天 / 地震碎：地 / 金箍棒：人 / 天地万物", "ch_t": "滅火炎：天 / 地震碎：地 / 金箍棒：人 / 天地萬物" }, "icon": "hexa-heaven-iron-hammer.webp" },
+      { "names": { "en": "HEXA Heaven: Iron Fan Gale / Earth: Ground-Shattering Wave / Humanity: As-You-Will Fan", "ch_s": "如意扇：人 / 三火", "ch_t": "如意扇：人 / 三火" }, "icon": "hexa-humanity-as-you-will-fan.webp" },
+      { "names": { "en": "HEXA Talisman: Clone / Seeking Ghost Flame", "ch_s": "符术：分身 / 追魂火", "ch_t": "符術：分身 / 追魂火" }, "icon": "hexa-talisman-clone.webp" },
+      { "names": { "en": "HEXA Scroll: Star Vortex / Butterfly", "ch_s": "卷术：吸星涡流 / 蝶梦", "ch_t": "卷術：吸星渦流 / 蝶夢" }, "icon": "hexa-scroll-star-vortex.webp" }
+    ],
+    "boost": [
+      { "names": { "en": "Sage: Clone Rampage", "ch_s": "仙技：极大化分身之术", "ch_t": "仙技：極大化分身之術" }, "icon": "sage-clone-rampage.webp" },
+      { "names": { "en": "Scroll: Tiger of Songyu", "ch_s": "卷术：山灵召唤", "ch_t": "卷術：山靈召喚" }, "icon": "scroll-tiger-of-songyu.webp" },
+      { "names": { "en": "Sage: Wrath of Gods", "ch_s": "仙技：降临 怪力乱神", "ch_t": "仙技：降臨怪力亂神" }, "icon": "sage-wrathful-gods.webp" },
+      { "names": { "en": "Sage: Three Paths Apparition", "ch_s": "仙技：天地人幻影", "ch_t": "仙技：天地人幻影" }, "icon": "sage-three-paths-apparition.webp" }
+    ],
+    "common": [
+      { "names": { "en": "Sol Janus: Dawn / Sol Janus: Twilight", "ch_s": "索尔亚努斯", "ch_t": "靈魂雅努斯" }, "icon": "../../common/sol-janus.webp", "t": "common" },
+      { "names": { "en": "Sol Hecate: Styx / Charon / Phlegethon", "ch_s": "索尔赫卡忒", "ch_t": "靈魂赫卡忒" }, "icon": "../../common/sol-hecate.webp", "t": "common" },
+      { "names": { "en": "Lotus Flower", "ch_s": "花中君子", "ch_t": "花中君子" }, "icon": "../../common/lotus-flower.png", "t": "common" }
+    ]
+  },
 "Kanna": {
     "names": { "en": "Kanna", "ch_s": "阴阳师", "ch_t": "陰陽師" },
     "faction": "sengoku",
     "skill": [
-      { "names": { "en": "[Divine Will] Advent of Crimson", "ch_s": "绯红降临", "ch_t": "緋紅降臨" }, "icon": "divine-will-advent-of-crimson.png", "t": "origin" },
-      { "names": { "en": "[Divine Will] Final Rest", "ch_s": "终焉之息", "ch_t": "終焉之息" }, "icon": "divine-will-final-rest.png", "t": "ascent" },
+      { "names": { "en": "[Divine Will] Advent of Crimson", "ch_s": "[天灵]霸王降临", "ch_t": "[天令]霸王降臨" }, "icon": "divine-will-advent-of-crimson.png", "t": "origin" },
+      { "names": { "en": "[Divine Will] Final Rest", "ch_s": "[天灵]灭噬", "ch_t": "[天令]滅息" }, "icon": "divine-will-final-rest.png", "t": "ascent" },
       { "names": { "en": "Skill 3", "ch_s": "第三技能", "ch_t": "第三技能" }, "icon": "skill-3.webp", "t": "third" }
     ],
     "mastery": [
-      { "names": { "en": "HEXA Soul-Shatter Talisman: Dance / Heart-Wreck Talisman", "ch_s": "破邪连击符 / 心碎符", "ch_t": "破邪連擊符 / 心碎符" }, "icon": "soul-shatter-talisman.png" },
-      { "names": { "en": "HEXA Summon Oni / [Order] Spining Strike / [Order] Pulverizing Strike", "ch_s": "召唤鬼神 / 旋转击 / 粉碎击", "ch_t": "召喚鬼神 / 旋轉擊 / 粉碎擊" }, "icon": "summon-oni.png" },
-      { "names": { "en": "HEXA Summon Tengu / Shade-Fletched Arrow", "ch_s": "召唤天狗 / 影羽箭", "ch_t": "召喚天狗 / 影羽箭" }, "icon": "summon-tengu.png" },
-      { "names": { "en": "HEXA Summon Orochi / [Order] Execute", "ch_s": "召唤大蛇 / 处决", "ch_t": "召喚大蛇 / 處決" }, "icon": "summon-orochi.png" }
+      { "names": { "en": "HEXA Soul-Shatter Talisman: Dance / Heart-Wreck Talisman", "ch_s": "破魂符-无 / 碎心符", "ch_t": "破魂符-舞 / 碎心符" }, "icon": "soul-shatter-talisman.png" },
+      { "names": { "en": "HEXA Summon Oni / [Order] Spining Strike / [Order] Pulverizing Strike", "ch_s": "召唤：妖鬼 / [式灵]车轮击 / [式灵]碎魂", "ch_t": "召喚：鬼 / [式令]車輪擊 / [式令]鬼魂粉碎" }, "icon": "summon-oni.png" },
+      { "names": { "en": "HEXA Summon Tengu / Shade-Fletched Arrow", "ch_s": "召唤：天狗 / [式灵]灵乌天煞", "ch_t": "召喚：天狗 / [式令]影羽穿殺" }, "icon": "summon-tengu.png" },
+      { "names": { "en": "HEXA Summon Orochi / [Order] Execute", "ch_s": "召唤：八岐大蛇 / [式灵]执行", "ch_t": "召喚：大蛇 / [式令]處刑" }, "icon": "summon-orochi.png" }
     ],
     "boost": [
-      { "names": { "en": "[Spirit] Hakumenkonmou Juubi", "ch_s": "[灵气] 白面金毛九尾", "ch_t": "[靈氣] 白面金毛九尾" }, "icon": "hakumenkonmou-juubi.png" },
-      { "names": { "en": "[Spirit] Unleash the Radiant Flame", "ch_s": "[灵气] 释放耀眼之炎", "ch_t": "[靈氣] 釋放耀眼之炎" }, "icon": "unleash-radiant-flame.png" },
-      { "names": { "en": "[Spirit] Unleash Black-Winged Destruction", "ch_s": "[灵气] 释放黑翼毁灭", "ch_t": "[靈氣] 釋放黑翼毀滅" }, "icon": "unleash-black-winged-destruction.png" },
-      { "names": { "en": "[Spirit] Unleash Soul-Searing Venom", "ch_s": "[灵气] 释放灼魂之毒", "ch_t": "[靈氣] 釋放灼魂之毒" }, "icon": "unleash-soul-searing-venom.png" }
+      { "names": { "en": "[Spirit] Hakumenkonmou Juubi", "ch_s": "[魂灵]白面金毛之十尾", "ch_t": "[靈魂]十尾妖狐的羈絆" }, "icon": "hakumenkonmou-juubi.png" },
+      { "names": { "en": "[Spirit] Unleash the Radiant Flame", "ch_s": "[魂灵]部分释放：喷焰光煞", "ch_t": "[靈魂]部分解放：燃炎光刃" }, "icon": "unleash-radiant-flame.png" },
+      { "names": { "en": "[Spirit] Unleash Black-Winged Destruction", "ch_s": "[魂灵]部分释放：黑翼破天", "ch_t": "[靈魂]部分解放：黑翼破天" }, "icon": "unleash-black-winged-destruction.png" },
+      { "names": { "en": "[Spirit] Unleash Soul-Searing Venom", "ch_s": "[魂灵]部分释放：绝魂毒牙", "ch_t": "[靈魂]部分解放：絕魂毒牙" }, "icon": "unleash-soul-searing-venom.png" }
     ],
     "common": [
       { "names": { "en": "Sol Janus: Dawn / Sol Janus: Twilight", "ch_s": "索尔亚努斯", "ch_t": "靈魂雅努斯" }, "icon": "../../common/sol-janus.webp", "t": "common" },
