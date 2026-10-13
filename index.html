@@ -9,19 +9,29 @@
 </head>
 <body>
 <main>
-  <!-- Navigation bar -->
   <nav class="navbar">
     <div class="nav-brand" data-i18n="brand">HEXA Calculator</div>
-    <button class="hamburger" id="hamburgerBtn" aria-label="Toggle menu">
-      <span></span><span></span><span></span>
-    </button>
-    <ul class="nav-menu" id="navMenu">
-      <li><button class="theme-btn" id="themeToggle" data-i18n="themeToggle">🌓 Toggle Theme</button></li>
-    </ul>
+    <div class="nav-controls">
+      <div class="lang-selector-wrapper">
+        🌐 <select id="langSelect">
+          <option value="en">English</option>
+          <option value="ch_s">简体中文</option>
+          <option value="ch_t">繁體中文</option>
+        </select>
+      </div>
+      <button class="hamburger" id="hamburgerBtn" aria-label="Toggle menu" aria-expanded="false" aria-controls="navMenu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><button class="theme-btn" id="themeToggle" data-i18n="themeToggle">Toggle theme</button></li>
+      </ul>
+    </div>
   </nav>
 
-  <h1 data-i18n="title">HEXA Fragment Calculator</h1>
-  <p class="sub" data-i18n="subtitle">Set each skill's current and goal level to see the Sol Erda Fragments and Sol Erda you still need.</p>
+  <header class="hero">
+    <h1 data-i18n="title">HEXA Fragment Calculator</h1>
+    <p class="sub" data-i18n="subtitle">Set each skill's current and goal level to see the Sol Erda Fragments and Sol Erda you still need.</p>
+  </header>
 
   <section class="card">
     <div class="row">
@@ -43,15 +53,6 @@
   <div id="sections"></div>
 
 </main>
-
-<!-- Bottom Corner Language Selector -->
-<div class="lang-selector-wrapper">
-  🌐 <select id="langSelect">
-    <option value="en">English</option>
-    <option value="ch_s">简体中文</option>
-    <option value="ch_t">繁體中文</option>
-  </select>
-</div>
 
 <script>
 let TABLES = {}, JOBS = {}, i18n = {};
@@ -117,10 +118,10 @@ function build() {
     
     for (const e of jobData[sec]) {
       const localizedName = e.names[S.lang] || e.names["en"];
-      const t = e.t || sec; 
+      const costType = e.t || sec;
       
       const i = list.length; 
-      list.push({ name: localizedName, t, originalKey: e.names["en"] });
+      list.push({ name: localizedName, t: costType, originalKey: e.names["en"] });
       
       const storageKey = S.job + "|" + e.names["en"];
       const v = S.lv[storageKey] || (S.lv[storageKey] = { c: 0, g: 30 });
@@ -131,7 +132,7 @@ function build() {
       
       h += `<div class="sk"><div class="ic"><img src="${imgPath}" alt="" onerror="this.remove()"></div>
       <div class="nm"><b>${localizedName}</b><span id="t${i}"></span></div>
-      <div class="lv"><input type="number" min="0" max="30" data-i="${i}" data-w="c" value="${v.c}"><span>→</span><input type="number" min="0" max="30" data-i="${i}" data-w="g" value="${v.g}"></div>
+      <div class="lv"><label>${t("currentLevel")}<input type="number" min="0" max="30" aria-label="${t("currentLevel")}" data-i="${i}" data-w="c" value="${v.c}"></label><span class="lv-arrow" aria-hidden="true">→</span><label>${t("goalLevel")}<input type="number" min="0" max="30" aria-label="${t("goalLevel")}" data-i="${i}" data-w="g" value="${v.g}"></label></div>
       <div class="bar"><i id="b${i}"></i></div></div>`;
     }
     h += "</div>";
@@ -161,21 +162,19 @@ function update() {
 }
 
 // Hamburger & Theme Toggle
-$("#hamburgerBtn").onclick = () => $("#navMenu").classList.toggle("open");
+$("#hamburgerBtn").onclick = () => {
+  const isOpen = $("#navMenu").classList.toggle("open");
+  $("#hamburgerBtn").setAttribute("aria-expanded", isOpen);
+};
 $("#themeToggle").onclick = () => {
   const current = document.documentElement.getAttribute("data-theme");
   const next = current === "light" ? "dark" : "light";
-  if (next === "light") {
-    document.documentElement.setAttribute("data-theme", "light");
-    localStorage.setItem("theme", "light");
-  } else {
-    document.documentElement.removeAttribute("data-theme");
-    localStorage.setItem("theme", "dark");
-  }
+  document.documentElement.setAttribute("data-theme", next);
+  localStorage.setItem("theme", next);
 };
 
-if (localStorage.getItem("theme") === "light") {
-  document.documentElement.setAttribute("data-theme", "light");
+if (localStorage.getItem("theme") === "dark") {
+  document.documentElement.setAttribute("data-theme", "dark");
 }
 
 // Language Change Event

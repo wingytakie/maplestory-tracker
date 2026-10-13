@@ -1,43 +1,35 @@
-/* Background Image Layer Container */
-body::before {
-  content: "";
-  position: fixed;
-  top: 0; left: 0; width: 100%; height: 100%;
-  background-image: url('../src/background/day.png'); /* Change background image path here */
-  background-size: cover;
-  background-position: center;
-  z-index: -1;
-  opacity: var(--bg-opacity, 1);
-}
-
 :root {
-  --bg: #080b17;
-  --card: rgba(14, 19, 40, 0.92);
-  --sk-bg: rgba(10, 15, 33, 0.9);
-  --stat-bg: rgba(14, 19, 40, 0.5);
-  --input-bg: #050813;
-  --line: #1f2750;
-  --tx: #e8ebf8;
-  --mu: #8c95bb;
-  --ac: #6d3cf5;
-  --fr: #c9b8ff;
-  --se: #7fd4ff;
-  --bar-bg: #171d3d;
-  --bg-opacity: 0.35; /* Darken background overlay */
+  color-scheme: light;
+  --bg: #f5f7f8;
+  --surface: #ffffff;
+  --surface-raised: #f7f9fa;
+  --input-bg: #ffffff;
+  --line: #e1e7e9;
+  --line-strong: #cbd6d8;
+  --tx: #182629;
+  --mu: #68797c;
+  --ac: #c3643b;
+  --fr: #a8552e;
+  --se: #218477;
+  --bar-bg: #e9eeee;
+  --icon-bg: #edf2f0;
+  --shadow: rgb(29 50 47 / 7%);
 }
 
-[data-theme='light'] {
-  --bg: #f0f3fa;
-  --card: rgba(255, 255, 255, 0.92);
-  --sk-bg: rgba(245, 247, 252, 0.9);
-  --stat-bg: rgba(255, 255, 255, 0.7);
-  --input-bg: #ffffff;
-  --line: #cbd5e1;
-  --tx: #1e293b;
-  --mu: #64748b;
-  --ac: #6d3cf5;
-  --fr: #581c87;
-  --se: #0369a1;
-  --bar-bg: #e2e8f0;
-  --bg-opacity: 0.15; /* Lighter background overlay for light mode */
+[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #151c1d;
+  --surface: #1e2829;
+  --surface-raised: #253031;
+  --input-bg: #182122;
+  --line: #344142;
+  --line-strong: #536161;
+  --tx: #edf3f1;
+  --mu: #a1b0ae;
+  --ac: #e38b61;
+  --fr: #f0a079;
+  --se: #7dd3c0;
+  --bar-bg: #364344;
+  --icon-bg: #293536;
+  --shadow: rgb(0 0 0 / 18%);
 }
