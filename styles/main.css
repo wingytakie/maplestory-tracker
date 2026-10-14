@@ -374,9 +374,15 @@ footer {
   padding: 4px 2px;
   border: 0;
   background: transparent;
+  color: var(--tx);
   font-size: 12px;
   font-weight: 600;
   cursor: pointer;
+}
+
+.lang-selector-wrapper select option {
+  background: var(--surface);
+  color: var(--tx);
 }
 
 @media (max-width: 760px) {
