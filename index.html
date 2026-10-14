@@ -91,6 +91,14 @@ function applyTranslations() {
   });
 }
 
+function updateJobOptions() {
+  const jobSelect = $("#job");
+  for (const option of jobSelect.options) {
+    const names = JOBS[option.value]?.names || {};
+    option.textContent = names[S.lang] || names.en || option.value;
+  }
+}
+
 function loadLanguage(langCode) {
   fetch(`data/locales/${langCode}.json`)
     .then(r => r.json())
@@ -99,6 +107,7 @@ function loadLanguage(langCode) {
       S.lang = langCode;
       save();
       applyTranslations();
+      updateJobOptions();
       build();
     });
 }
@@ -196,7 +205,12 @@ Promise.all([
 
   if (!JOBS[S.job]) S.job = Object.keys(JOBS)[0];
   
-  $("#job").innerHTML = Object.keys(JOBS).map(j => `<option>${j}</option>`).join("");
+  $("#job").replaceChildren(...Object.keys(JOBS).map(j => {
+    const option = document.createElement("option");
+    option.value = j;
+    option.textContent = JOBS[j].names[S.lang] || JOBS[j].names.en || j;
+    return option;
+  }));
   $("#job").value = S.job;
   $("#fpd").value = S.fpd;
   

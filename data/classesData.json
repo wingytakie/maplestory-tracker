@@ -26,7 +26,7 @@
     ]
   },
   "Angelica Buster": {
-    "names": { "en": "Angelica Buster", "ch_s": "", "ch_t": "" },
+    "names": { "en": "Angelica Buster", "ch_s": "天使破坏者", "ch_t": "天使破壞者" },
     "faction": "nova",
     "skill": [
       { "names": { "en": "Grand Finale", "ch_s": "华彩最终章", "ch_t": "完美落幕" }, "icon": "grand-finale.png", "t": "origin" },
@@ -52,7 +52,7 @@
     ]
   },
   "Aran": {
-    "names": { "en": "Aran", "ch_s": "", "ch_t": "" },
+    "names": { "en": "Aran", "ch_s": "狂狼勇士", "ch_t": "狂狼勇士" },
     "faction": "heroes",
     "skill": [
       { "names": { "en": "Endless Ice", "ch_s": "", "ch_t": "" }, "icon": "endless-ice.png", "t": "origin" },
@@ -78,7 +78,7 @@
     ]
   },
   "Arch Mage (Fire, Poison)": {
-    "names": { "en": "Arch Mage (Fire, Poison)", "ch_s": "", "ch_t": "" },
+    "names": { "en": "Arch Mage (Fire, Poison)", "ch_s": "火毒大魔导师", "ch_t": "火毒大魔導士" },
     "faction": "explorer",
     "skill": [
       { "names": { "en": "Infernal Wave", "ch_s": "", "ch_t": "" }, "icon": "infernal-wave.png", "t": "origin" },
@@ -104,7 +104,7 @@
     ]
   },
   "Arch Mage (Ice, Lightning)": {
-    "names": { "en": "Arch Mage (Ice, Lightning)", "ch_s": "", "ch_t": "" },
+    "names": { "en": "Arch Mage (Ice, Lightning)", "ch_s": "冰雷大魔导师", "ch_t": "冰雷大魔導士" },
     "faction": "explorer",
     "skill": [
       { "names": { "en": "Frozen Lightning", "ch_s": "霜冻闪电", "ch_t": "殛凍領域" }, "icon": "frozen-lightning.png", "t": "origin" },
@@ -130,7 +130,7 @@
     ]
   },
   "Ark": {
-    "names": { "en": "Ark", "ch_s": "", "ch_t": "" },
+    "names": { "en": "Ark", "ch_s": "亚克", "ch_t": "亞克" },
     "faction": "flora",
     "skill": [
       { "names": { "en": "Abyssal Unleashed", "ch_s": "", "ch_t": "" }, "icon": "abyssal-unleashed.png", "t": "origin" },
@@ -156,7 +156,7 @@
     ]
   },
   "Battle Mage": {
-    "names": { "en": "Battle Mage", "ch_s": "", "ch_t": "" },
+    "names": { "en": "Battle Mage", "ch_s": "战斗法师", "ch_t": "戰鬥法師" },
     "faction": "resistance",
     "skill": [
       { "names": { "en": "Crimson Pact", "ch_s": "血契完成", "ch_t": "緋紅契約" }, "icon": "crimson-pact.png", "t": "origin" },
@@ -182,7 +182,7 @@
     ]
   },
   "Bishop": {
-    "names": { "en": "Bishop", "ch_s": "", "ch_t": "" },
+    "names": { "en": "Bishop", "ch_s": "主教", "ch_t": "主教" },
     "faction": "explorer",
     "skill": [
       { "names": { "en": "Holy Advent", "ch_s": "圣灵显现", "ch_t": "天堂神罰" }, "icon": "holy-advent.png", "t": "origin" },
@@ -208,7 +208,7 @@
     ]
   },
   "Blaster": {
-    "names": { "en": "Blaster", "ch_s": "", "ch_t": "" },
+    "names": { "en": "Blaster", "ch_s": "爆破手", "ch_t": "爆破手" },
     "faction": "resistance",
     "skill": [
       { "names": { "en": "Final Volley", "ch_s": "", "ch_t": "" }, "icon": "final-volley.png", "t": "origin" },
@@ -234,7 +234,7 @@
     ]
   },
   "Blaze Wizard": {
-    "names": { "en": "Blaze Wizard", "ch_s": "", "ch_t": "" },
+    "names": { "en": "Blaze Wizard", "ch_s": "炎术士", "ch_t": "烈焰巫師" },
     "faction": "cygnus",
     "skill": [
       { "names": { "en": "Eternity", "ch_s": "永劫引渡", "ch_t": "永恆鳳炎" }, "icon": "eternity.png", "t": "origin" },
@@ -260,7 +260,7 @@
     ]
   },
   "Bowmaster": {
-    "names": { "en": "Bowmaster", "ch_s": "", "ch_t": "" },
+    "names": { "en": "Bowmaster", "ch_s": "神射手", "ch_t": "神射手" },
     "faction": "explorer",
     "skill": [
       { "names": { "en": "Ascendent Shadow", "ch_s": "", "ch_t": "" }, "icon": "ascendent-shadow.png", "t": "origin" },
@@ -286,7 +286,7 @@
     ]
   },
   "Cadena": {
-    "names": { "en": "Cadena", "ch_s": "", "ch_t": "" },
+    "names": { "en": "Cadena", "ch_s": "卡德娜", "ch_t": "卡德娜" },
     "faction": "nova",
     "skill": [
       { "names": { "en": "Chain Arts: Massacre", "ch_s": "", "ch_t": "" }, "icon": "chain-arts-massacre.png", "t": "origin" },
@@ -312,7 +312,7 @@
     ]
   },
   "Cannoneer": {
-    "names": { "en": "Cannoneer", "ch_s": "", "ch_t": "" },
+    "names": { "en": "Cannoneer", "ch_s": "神炮王", "ch_t": "神炮王" },
     "faction": "explorer",
     "skill": [
       { "names": { "en": "Super Cannon Explosion", "ch_s": "超级爆轰", "ch_t": "究極炸裂加農砲" }, "icon": "super-cannon-explosion.png", "t": "origin" },
@@ -338,7 +338,7 @@
     ]
   },
   "Captain": {
-    "names": { "en": "Captain", "ch_s": "", "ch_t": "" },
+    "names": { "en": "Captain", "ch_s": "船长", "ch_t": "船長" },
     "faction": "explorer",
     "skill": [
       { "names": { "en": "Dreadnought", "ch_s": "", "ch_t": "" }, "icon": "dreadnought.png", "t": "origin" },
@@ -364,7 +364,7 @@
     ]
   },
   "Dark Knight": {
-    "names": { "en": "Dark Knight", "ch_s": "", "ch_t": "" },
+    "names": { "en": "Dark Knight", "ch_s": "黑骑士", "ch_t": "黑騎士" },
     "faction": "explorer",
     "skill": [
       { "names": { "en": "Dead Space", "ch_s": "亡命领域", "ch_t": "滅世永恆之槍" }, "icon": "dead-space.png", "t": "origin" },
@@ -390,7 +390,7 @@
     ]
   },
   "Dawn Warrior": {
-    "names": { "en": "Dawn Warrior", "ch_s": "", "ch_t": "" },
+    "names": { "en": "Dawn Warrior", "ch_s": "魂骑士", "ch_t": "魂騎士" },
     "faction": "cygnus",
     "skill": [
       { "names": { "en": "Astral Eclipse", "ch_s": "", "ch_t": "" }, "icon": "astral-eclipse.png", "t": "origin" },
@@ -416,7 +416,7 @@
     ]
   },
   "Demon Avenger": {
-    "names": { "en": "Demon Avenger", "ch_s": "", "ch_t": "" },
+    "names": { "en": "Demon Avenger", "ch_s": "恶魔复仇者", "ch_t": "惡魔復仇者" },
     "faction": "resistance",
     "skill": [
       { "names": { "en": "Requiem", "ch_s": "镇魂魔剑", "ch_t": "魔劍鎮魂曲" }, "icon": "requiem.png", "t": "origin" },
@@ -442,7 +442,7 @@
     ]
   },
   "Demon Slayer": {
-    "names": { "en": "Demon Slayer", "ch_s": "", "ch_t": "" },
+    "names": { "en": "Demon Slayer", "ch_s": "恶魔猎手", "ch_t": "惡魔殺手" },
     "faction": "resistance",
     "skill": [
       { "names": { "en": "Nightmare", "ch_s": "梦魇", "ch_t": "" }, "icon": "nightmare.png", "t": "origin" },
@@ -468,7 +468,7 @@
     ]
   },
   "Dual Blade": {
-    "names": { "en": "Dual Blade", "ch_s": "", "ch_t": "" },
+    "names": { "en": "Dual Blade", "ch_s": "暗影双刀", "ch_t": "暗影雙刀" },
     "faction": "explorer",
     "skill": [
       { "names": { "en": "Karma Blade", "ch_s": "业障之刃", "ch_t": "無盡阿修羅" }, "icon": "karma-blade.png", "t": "origin" },
@@ -494,7 +494,7 @@
     ]
   },
   "Evan": {
-    "names": { "en": "Evan", "ch_s": "", "ch_t": "" },
+    "names": { "en": "Evan", "ch_s": "龙神", "ch_t": "龍神" },
     "faction": "heroes",
     "skill": [
       { "names": { "en": "Zodiac Burst", "ch_s": "星海", "ch_t": "龍星群" }, "icon": "zodiac-burst.png", "t": "origin" },
@@ -520,7 +520,7 @@
     ]
   },
   "Hayato": {
-    "names": { "en": "Hayato", "ch_s": "", "ch_t": "" },
+    "names": { "en": "Hayato", "ch_s": "剑豪", "ch_t": "劍豪" },
     "faction": "sengoku",
     "skill": [
       { "names": { "en": "Jin Sanrenzan", "ch_s": "", "ch_t": "" }, "icon": "jin-sanrenzan.png", "t": "origin" },
@@ -596,7 +596,7 @@
     ]
   },
   "Illium": {
-    "names": { "en": "Illium", "ch_s": "", "ch_t": "" },
+    "names": { "en": "Illium", "ch_s": "伊利恩", "ch_t": "伊利恩" },
     "faction": "flora",
     "skill": [
       { "names": { "en": "Unlimited Power", "ch_s": "", "ch_t": "" }, "icon": "unlimited-power.png", "t": "origin" },
@@ -622,7 +622,7 @@
     ]
   },
   "Kain": {
-    "names": { "en": "Kain", "ch_s": "", "ch_t": "" },
+    "names": { "en": "Kain", "ch_s": "凯殷", "ch_t": "凱殷" },
     "faction": "nova",
     "skill": [
       { "names": { "en": "Annihilation", "ch_s": "", "ch_t": "" }, "icon": "annihilation.png", "t": "origin" },
@@ -648,7 +648,7 @@
     ]
   },
   "Kaiser": {
-    "names": { "en": "Kaiser", "ch_s": "", "ch_t": "" },
+    "names": { "en": "Kaiser", "ch_s": "凯撒", "ch_t": "凱撒" },
     "faction": "nova",
     "skill": [
       { "names": { "en": "Might of the Dragon Emperor", "ch_s": "", "ch_t": "" }, "icon": "might-of-the-dragon-emperor.png", "t": "origin" },
@@ -700,7 +700,7 @@
     ]
   },
   "Khali": {
-    "names": { "en": "Khali", "ch_s": "", "ch_t": "" },
+    "names": { "en": "Khali", "ch_s": "卡莉", "ch_t": "卡莉" },
     "faction": "flora",
     "skill": [
       { "names": { "en": "Hex: Sandstorm", "ch_s": "妖术：沙尘暴", "ch_t": "魔咒：沙塵暴" }, "icon": "hex-sandstorm.png", "t": "origin" },
@@ -726,7 +726,7 @@
     ]
   },
   "Kinesis": {
-    "names": { "en": "Kinesis", "ch_s": "", "ch_t": "" },
+    "names": { "en": "Kinesis", "ch_s": "超能力者", "ch_t": "超能力者" },
     "faction": "other",
     "skill": [
       { "names": { "en": "Another Realm", "ch_s": "", "ch_t": "" }, "icon": "another-realm.png", "t": "origin" },
@@ -752,7 +752,7 @@
     ]
   },
   "Lara": {
-    "names": { "en": "Lara", "ch_s": "", "ch_t": "" },
+    "names": { "en": "Lara", "ch_s": "拉拉", "ch_t": "拉拉" },
     "faction": "anima",
     "skill": [
       { "names": { "en": "Playground of Nature", "ch_s": "", "ch_t": "" }, "icon": "playground-of-nature.png", "t": "origin" },
@@ -778,7 +778,7 @@
     ]
   },
   "Luminous": {
-    "names": { "en": "Luminous", "ch_s": "", "ch_t": "" },
+    "names": { "en": "Luminous", "ch_s": "夜光", "ch_t": "夜光" },
     "faction": "heroes",
     "skill": [
       { "names": { "en": "Harmonic Paradox", "ch_s": "和谐悖论", "ch_t": "創世紀" }, "icon": "harmonic-paradox.png", "t": "origin" },
@@ -804,7 +804,7 @@
     ]
   },
   "Lynn": {
-    "names": { "en": "Lynn", "ch_s": "", "ch_t": "" },
+    "names": { "en": "Lynn", "ch_s": "琳恩", "ch_t": "琳恩" },
     "faction": "anima",
     "skill": [
       { "names": { "en": "Mother Nature\u0027s Guidance", "ch_s": "", "ch_t": "" }, "icon": "mother-nature-s-guidance.png", "t": "origin" },
@@ -830,7 +830,7 @@
     ]
   },
   "Marksman": {
-    "names": { "en": "Marksman", "ch_s": "", "ch_t": "" },
+    "names": { "en": "Marksman", "ch_s": "箭神", "ch_t": "箭神" },
     "faction": "explorer",
     "skill": [
       { "names": { "en": "Final Aim", "ch_s": "终极瞄准", "ch_t": "裂空狙擊" }, "icon": "final-aim.png", "t": "origin" },
@@ -856,7 +856,7 @@
     ]
   },
   "Mechanic": {
-    "names": { "en": "Mechanic", "ch_s": "", "ch_t": "" },
+    "names": { "en": "Mechanic", "ch_s": "机械师", "ch_t": "機甲戰神" },
     "faction": "resistance",
     "skill": [
       { "names": { "en": "Ground Zero", "ch_s": "引爆导弹雨", "ch_t": "原爆點" }, "icon": "ground-zero.png", "t": "origin" },
@@ -882,7 +882,7 @@
     ]
   },
   "Mercedes": {
-    "names": { "en": "Mercedes", "ch_s": "", "ch_t": "" },
+    "names": { "en": "Mercedes", "ch_s": "精灵游侠", "ch_t": "精靈遊俠" },
     "faction": "heroes",
     "skill": [
       { "names": { "en": "Unfading Glory", "ch_s": "不朽荣耀", "ch_t": "不朽榮光" }, "icon": "unfading-glory.png", "t": "origin" },
@@ -908,7 +908,7 @@
     ]
   },
   "Mihile": {
-    "names": { "en": "Mihile", "ch_s": "", "ch_t": "" },
+    "names": { "en": "Mihile", "ch_s": "米哈逸", "ch_t": "米哈逸" },
     "faction": "cygnus",
     "skill": [
       { "names": { "en": "Durandal", "ch_s": "", "ch_t": "" }, "icon": "durandal.png", "t": "origin" },
@@ -934,7 +934,7 @@
     ]
   },
   "Mo Xuan": {
-    "names": { "en": "Mo Xuan", "ch_s": "", "ch_t": "" },
+    "names": { "en": "Mo Xuan", "ch_s": "墨玄", "ch_t": "墨玄" },
     "faction": "sengoku",
     "skill": [
       { "names": { "en": "Sublime Style", "ch_s": "", "ch_t": "" }, "icon": "sublime-style.png", "t": "origin" },
@@ -960,7 +960,7 @@
     ]
   },
   "Night Lord": {
-    "names": { "en": "Night Lord", "ch_s": "", "ch_t": "" },
+    "names": { "en": "Night Lord", "ch_s": "夜使者", "ch_t": "夜使者" },
     "faction": "explorer",
     "skill": [
       { "names": { "en": "Life and Death", "ch_s": "生死予夺", "ch_t": "禁咒之符" }, "icon": "life-and-death.png", "t": "origin" },
@@ -986,7 +986,7 @@
     ]
   },
   "Night Walker": {
-    "names": { "en": "Night Walker", "ch_s": "", "ch_t": "" },
+    "names": { "en": "Night Walker", "ch_s": "暗夜行者", "ch_t": "暗夜行者" },
     "faction": "cygnus",
     "skill": [
       { "names": { "en": "Silence", "ch_s": "静谧之夜", "ch_t": "靜謐之夜" }, "icon": "silence.png", "t": "origin" },
@@ -1012,7 +1012,7 @@
     ]
   },
   "Paladin": {
-    "names": { "en": "Paladin", "ch_s": "", "ch_t": "" },
+    "names": { "en": "Paladin", "ch_s": "圣骑士", "ch_t": "聖騎士" },
     "faction": "explorer",
     "skill": [
       { "names": { "en": "Sacred Bastion", "ch_s": "神圣堡垒", "ch_t": "聖域展開" }, "icon": "sacred-bastion.png", "t": "origin" },
@@ -1038,7 +1038,7 @@
     ]
   },
   "Pathfinder": {
-    "names": { "en": "Pathfinder", "ch_s": "", "ch_t": "" },
+    "names": { "en": "Pathfinder", "ch_s": "开拓者", "ch_t": "開拓者" },
     "faction": "explorer",
     "skill": [
       { "names": { "en": "Forsaken Relic", "ch_s": "远古遗物", "ch_t": "忘卻遺跡" }, "icon": "forsaken-relic.png", "t": "origin" },
@@ -1064,7 +1064,7 @@
     ]
   },
   "Phantom": {
-    "names": { "en": "Phantom", "ch_s": "", "ch_t": "" },
+    "names": { "en": "Phantom", "ch_s": "幻影", "ch_t": "幻影" },
     "faction": "heroes",
     "skill": [
       { "names": { "en": "Defying Fate", "ch_s": "既定命运", "ch_t": "命運詠嘆調" }, "icon": "defying-fate.png", "t": "origin" },
@@ -1090,7 +1090,7 @@
     ]
   },
   "Ren": {
-    "names": { "en": "Ren", "ch_s": "", "ch_t": "" },
+    "names": { "en": "Ren", "ch_s": "莲", "ch_t": "蓮" },
     "faction": "other",
     "skill": [
       { "names": { "en": "Rising Azure Dragon: Divided Heavens", "ch_s": "苍龙破天剑：冲天", "ch_t": "蒼龍闢天劍：昇天" }, "icon": "rising-azure-dragon-divided-heavens.png", "t": "origin" },
@@ -1116,7 +1116,7 @@
     ]
   },
   "Shade": {
-    "names": { "en": "Shade", "ch_s": "", "ch_t": "" },
+    "names": { "en": "Shade", "ch_s": "隐月", "ch_t": "隱月" },
     "faction": "heroes",
     "skill": [
       { "names": { "en": "Advent of Fox Spirit", "ch_s": "", "ch_t": "" }, "icon": "advent-of-fox-spirit.png", "t": "origin" },
@@ -1142,7 +1142,7 @@
     ]
   },
   "Shadower": {
-    "names": { "en": "Shadower", "ch_s": "", "ch_t": "" },
+    "names": { "en": "Shadower", "ch_s": "暗影神偷", "ch_t": "暗影神偷" },
     "faction": "explorer",
     "skill": [
       { "names": { "en": "Halifaxion", "ch_s": "", "ch_t": "" }, "icon": "halifaxion.png", "t": "origin" },
@@ -1168,7 +1168,7 @@
     ]
   },
   "Thunder Breaker": {
-    "names": { "en": "Thunder Breaker", "ch_s": "", "ch_t": "" },
+    "names": { "en": "Thunder Breaker", "ch_s": "奇袭者", "ch_t": "閃雷悍將" },
     "faction": "cygnus",
     "skill": [
       { "names": { "en": "Thunderstorm", "ch_s": "", "ch_t": "" }, "icon": "thunderstorm.png", "t": "origin" },
@@ -1194,7 +1194,7 @@
     ]
   },
   "Viper": {
-    "names": { "en": "Viper", "ch_s": "", "ch_t": "" },
+    "names": { "en": "Viper", "ch_s": "拳霸", "ch_t": "拳霸" },
     "faction": "explorer",
     "skill": [
       { "names": { "en": "Liberator Dragon", "ch_s": "", "ch_t": "" }, "icon": "liberator-dragon.png", "t": "origin" },
@@ -1220,7 +1220,7 @@
     ]
   },
   "Wild Hunter": {
-    "names": { "en": "Wild Hunter", "ch_s": "", "ch_t": "" },
+    "names": { "en": "Wild Hunter", "ch_s": "豹弩游侠", "ch_t": "狂豹獵人" },
     "faction": "resistance",
     "skill": [
       { "names": { "en": "Nature\u0027s Belief", "ch_s": "", "ch_t": "" }, "icon": "nature-s-belief.png", "t": "origin" },
@@ -1246,7 +1246,7 @@
     ]
   },
   "Wind Breaker": {
-    "names": { "en": "Wind Breaker", "ch_s": "", "ch_t": "" },
+    "names": { "en": "Wind Breaker", "ch_s": "风灵使者", "ch_t": "破風使者" },
     "faction": "cygnus",
     "skill": [
       { "names": { "en": "Mistral Spring", "ch_s": "风起灵涌", "ch_t": "風之聖諭" }, "icon": "mistral-spring.png", "t": "origin" },
@@ -1272,7 +1272,7 @@
     ]
   },
   "Xenon": {
-    "names": { "en": "Xenon", "ch_s": "", "ch_t": "" },
+    "names": { "en": "Xenon", "ch_s": "尖兵", "ch_t": "傑諾" },
     "faction": "resistance",
     "skill": [
       { "names": { "en": "Artificial Evolution", "ch_s": "超进化机甲合体", "ch_t": "人工進化" }, "icon": "artificial-evolution.png", "t": "origin" },
@@ -1298,7 +1298,7 @@
     ]
   },
   "Zero": {
-    "names": { "en": "Zero", "ch_s": "", "ch_t": "" },
+    "names": { "en": "Zero", "ch_s": "神之子", "ch_t": "神之子" },
     "faction": "zero",
     "skill": [
       { "names": { "en": "Chrono Trigger", "ch_s": "", "ch_t": "" }, "icon": "chrono-trigger.png", "t": "origin" },
