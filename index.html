@@ -4,13 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title data-i18n="title">HEXA Fragment Calculator</title>
+<link rel="icon" type="image/png" href="./src/icon/common/icon.png">
 <link rel="stylesheet" href="./styles/main.css">
 <link rel="stylesheet" href="./styles/theme.css">
 </head>
 <body>
 <main>
   <nav class="navbar">
-    <div class="nav-brand" data-i18n="brand">HEXA Calculator</div>
+    <div class="nav-brand"><img class="brand-icon" src="./src/icon/common/icon.png" alt=""><span data-i18n="brand">HEXA Calculator</span></div>
     <div class="nav-controls">
       <div class="lang-selector-wrapper">
         🌐 <select id="langSelect">
@@ -130,7 +131,7 @@ function build() {
       const imgFile = e.icon || `${slug(e.names["en"])}.webp`;
       const imgPath = `./src/icon/${faction}/${className}/${imgFile}`;
       
-      h += `<div class="sk"><div class="ic"><img src="${imgPath}" alt="" onerror="this.remove()"></div>
+      h += `<div class="sk"><div class="ic"><img src="${imgPath}" alt="" onerror="this.onerror=null;this.src='./src/icon/common/placeholder.svg'"></div>
       <div class="nm"><b>${localizedName}</b><span id="t${i}"></span></div>
       <div class="lv"><label>${t("currentLevel")}<input type="number" min="0" max="30" aria-label="${t("currentLevel")}" data-i="${i}" data-w="c" value="${v.c}"></label><span class="lv-arrow" aria-hidden="true">→</span><label>${t("goalLevel")}<input type="number" min="0" max="30" aria-label="${t("goalLevel")}" data-i="${i}" data-w="g" value="${v.g}"></label></div>
       <div class="bar"><i id="b${i}"></i></div></div>`;
