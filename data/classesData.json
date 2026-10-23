@@ -67,14 +67,14 @@
     ],
     "boost": [
       { "names": { "en": "Finisher - Adrenaline Surge", "ch_s": "加速终端-极度兴奋", "ch_t": "極速巔峰-鬥氣波動" }, "icon": "adrenaline-surge.png" },
-      { "names": { "en": "Maha's Carnage", "ch_s": "摩诃挥击", "ch_t": "舞動瑪哈" }, "icon": "maha-s-carnage.png" },
+      { "names": { "en": "Maha\u0027s Carnage", "ch_s": "摩诃挥击", "ch_t": "舞動瑪哈" }, "icon": "maha-s-carnage.png" },
       { "names": { "en": "Final Beyond Blade - White Tiger", "ch_s": "终极比昂德-白虎", "ch_t": "終極比耀德-白虎" }, "icon": "white-tiger.png" },
       { "names": { "en": "Blizzard Tempest", "ch_s": "决战暴风雪", "ch_t": "極冰風暴" }, "icon": "blizzard-tempest.png" }
     ],
     "common": [
       { "names": { "en": "Sol Janus: Dawn / Sol Janus: Twilight", "ch_s": "索尔亚努斯", "ch_t": "靈魂雅努斯" }, "icon": "../../common/sol-janus.webp" },
       { "names": { "en": "Sol Hecate: Styx / Charon / Phlegethon", "ch_s": "索尔赫卡忒", "ch_t": "靈魂赫卡忒" }, "icon": "../../common/sol-hecate.webp" },
-      { "names": { "en": "Freud's Wisdom", "ch_s": "弗里德的加护", "ch_t": "普力特的祝福" }, "icon": "../../common/freud-s-wisdom.png" }
+      { "names": { "en": "Freud\u0027s Wisdom", "ch_s": "弗里德的加护", "ch_t": "普力特的祝福" }, "icon": "../../common/freud-s-wisdom.png" }
     ]
   },
   "Arch Mage (Fire, Poison)": {
@@ -958,7 +958,7 @@
     "common": [
       { "names": { "en": "Sol Janus: Dawn / Sol Janus: Twilight", "ch_s": "索尔亚努斯", "ch_t": "靈魂雅努斯" }, "icon": "../../common/sol-janus.webp" },
       { "names": { "en": "Sol Hecate: Styx / Charon / Phlegethon", "ch_s": "索尔赫卡忒", "ch_t": "靈魂赫卡忒" }, "icon": "../../common/sol-hecate.webp" },
-      { "names": { "en": "\"Power of Destiny\"", "ch_s": "格兰蒂斯女神的祝福", "ch_t": "格蘭蒂斯女神的祝福" }, "icon": "../../common/grandis-goddess-s-blessing.png" }
+      { "names": { "en": "Power of Destiny", "ch_s": "格兰蒂斯女神的祝福", "ch_t": "格蘭蒂斯女神的祝福" }, "icon": "../../common/grandis-goddess-s-blessing.png" }
     ]
   },
   "Night Lord": {
