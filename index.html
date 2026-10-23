@@ -137,8 +137,9 @@ function build() {
       const v = S.lv[storageKey] || (S.lv[storageKey] = { c: 0, g: 30 });
       
       // Construct dynamic path: src/icon/[faction]/[class]/[filename]
-      const imgFile = e.icon || `${slug(e.names["en"])}.webp`;
-      const imgPath = `./src/icon/${faction}/${className}/${imgFile}`;
+      const imgPath = e.icon
+        ? `./src/icon/${faction}/${className}/${e.icon}`
+        : "./src/icon/common/placeholder.svg";
       
       h += `<div class="sk"><div class="ic"><img src="${imgPath}" alt="" onerror="this.onerror=null;this.src='./src/icon/common/placeholder.svg'"></div>
       <div class="nm"><b>${localizedName}</b><span id="t${i}"></span></div>
