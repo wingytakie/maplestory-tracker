@@ -16,12 +16,15 @@ Use this process when the user requests MapleStory skill-data updates. The user 
 - Verify the exact skill ID and GMS record for the intended class and skill context. If multiple records match, do not guess.
 - If the user supplies an ID, verify that it matches the intended skill and class.
 - Use each confirmed ID to find the corresponding CMS and TMS records. Do not invent, machine-translate, or infer missing translations. Report any unconfirmed localization as unresolved and ask for clarification.
+- The site API returns matching skills across jobs and may return several records with the same skill name for one class (e.g. level variants). Filter by the intended class/job, use the shared ID for CMS/TMS, and prefer the canonical non-empty icon record; never infer an ID solely from a matching name.
 
 ## Combined skill entries
 
-- In `mastery` and `boost` entries, `/` usually separates individual skill components. Look up every component separately; do not search for the combined display string as one skill.
+- In `mastery` and `boost` entries, `/` usually separates individual skill components, except for slashes inside bracketed qualifiers such as `[M/E]`. Look up every component separately; do not search for the combined display string as one skill.
 - Preserve component order and return one translation per component, joined with ` / ` in both `ch_s` and `ch_t`.
-- Include bracketed components in verification. Brackets may be removed from the search term if necessary, but the component must not be omitted.
+- For a mastery component, search its HEXA record first. If no matching HEXA record exists but a corresponding Boost record does, use that verified Boost record for the component's CMS/TMS translations; do not substitute a regular skill record.
+- Boost records may be listed under different job groups (including `40000` and `50000`). Search by the exact Boost title and confirm the record's class/skill context and icon path instead of assuming one job ID.
+- Include bracketed components in verification. Search the literal component first; brackets may be removed from the search term as a fallback, but the component must not be omitted.
 - Keep the existing combined English display name and component order unless the user specifically requests a verified English-name correction.
 - Example:
   - English: `Impale / Resonance Rush / Noble Summons / Aether Bloom`
@@ -31,7 +34,7 @@ Use this process when the user requests MapleStory skill-data updates. The user 
 ## Icon lookup and storage
 
 - Each JSON entry has one icon. For a combined mastery or boost entry, use the first component's icon.
-- For mastery entries, find the first component's HEXA skill (search `HEXA [skill name]`, unless the component already includes `HEXA`). Do not use the regular skill record.
+- For mastery entries, find the first component's HEXA skill (search `HEXA [skill name]`, unless the component already includes `HEXA`). If no matching HEXA record exists but a corresponding Boost record does, use that Boost record as the icon source; do not use the regular skill record.
 - For boost entries, find the first component's boost skill (search `[skill name] boost`). Do not use the regular skill record.
 - Confirm the icon belongs to the correct class and skill record. Use only the icon path from that verified GMS result.
 - Download the image from `https://mxd.dvg.cn` plus the verified GMS icon path. Verify that the downloaded file is non-empty and is a valid image.
