@@ -83,7 +83,7 @@
     "skill": [
       { "names": { "en": "Infernal Venom", "ch_s": "炼狱之毒", "ch_t": "劇毒煉獄" }, "icon": "infernal-venom.png", "t": "origin" },
       { "names": { "en": "Immortal Flame", "ch_s": "倾盆火雨", "ch_t": "豪火烈焰" }, "icon": "immortal-flame.png", "t": "ascent" },
-      { "names": { "en": "Ignis Influx", "ch_s": "伊格尼斯涌流", "ch_t": "伊格尼斯湧流" }, "icon": "", "t": "third" }
+      { "names": { "en": "Infernal Wave", "ch_s": "炼狱涌流", "ch_t": "煉獄湧流" }, "icon": "infernal-wave.png", "t": "third" }
     ],
     "mastery": [
       { "names": { "en": "HEXA Flame Sweep", "ch_s": "烈焰旋涡VI", "ch_t": "火焰之襲VI" }, "icon": "hexa-flame-sweep.png" },
@@ -100,7 +100,7 @@
     "common": [
       { "names": { "en": "Sol Janus: Dawn / Sol Janus: Twilight", "ch_s": "索尔亚努斯", "ch_t": "靈魂雅努斯" }, "icon": "../../common/sol-janus.webp" },
       { "names": { "en": "Sol Hecate: Styx / Charon / Phlegethon", "ch_s": "索尔赫卡忒", "ch_t": "靈魂赫卡忒" }, "icon": "../../common/sol-hecate.webp" },
-      { "names": { "en": "Mana Overload", "ch_s": "奥术超控", "ch_t": "祕術超越" }, "icon": "../../common/arcane-overdrive.png" }
+      { "names": { "en": "Mana Overload", "ch_s": "奥术超控", "ch_t": "祕術超越" }, "icon": "../../common/arcane-overdrive-fp.png" }
     ]
   },
   "Arch Mage (Ice, Lightning)": {
@@ -109,7 +109,7 @@
     "skill": [
       { "names": { "en": "Frozen Lightning", "ch_s": "霜冻闪电", "ch_t": "殛凍領域" }, "icon": "frozen-lightning.png", "t": "origin" },
       { "names": { "en": "Parabolic Bolt", "ch_s": "弧形闪电", "ch_t": "圓弧雷鳴" }, "icon": "parabolic-bolt.png", "t": "ascent" },
-      { "names": { "en": "Tempestuous Frost", "ch_s": "风暴寒霜", "ch_t": "風暴寒霜" }, "icon": "", "t": "third" }
+      { "names": { "en": "Subzero Fulmination", "ch_s": "极寒轰雷", "ch_t": "極寒轟雷" }, "icon": "subzero-fulmination.png", "t": "third" }
     ],
     "mastery": [
       { "names": { "en": "HEXA Chain Lightning", "ch_s": "链环闪电VI", "ch_t": "閃電連擊VI" }, "icon": "hexa-chain-lightning.png" },
@@ -187,7 +187,7 @@
     "skill": [
       { "names": { "en": "Holy Advent", "ch_s": "圣灵显现", "ch_t": "天堂神罰" }, "icon": "holy-advent.png", "t": "origin" },
       { "names": { "en": "Commandment of Heaven", "ch_s": "盾牌之祝福", "ch_t": "防禦的祝福" }, "icon": "aegis-blessing.png", "t": "ascent" },
-      { "names": { "en": "Radiant Mercy", "ch_s": "圣光慈悲", "ch_t": "聖光慈悲" }, "icon": "", "t": "third" }
+      { "names": { "en": "Angels Pledge", "ch_s": "天使誓约", "ch_t": "天使誓約" }, "icon": "angels-pledge.png", "t": "third" }
     ],
     "mastery": [
       { "names": { "en": "HEXA Angel Ray", "ch_s": "光芒飞箭VI", "ch_t": "天使之箭VI" }, "icon": "hexa-angel-ray.png" },
@@ -204,7 +204,7 @@
     "common": [
       { "names": { "en": "Sol Janus: Dawn / Sol Janus: Twilight", "ch_s": "索尔亚努斯", "ch_t": "靈魂雅努斯" }, "icon": "../../common/sol-janus.webp" },
       { "names": { "en": "Sol Hecate: Styx / Charon / Phlegethon", "ch_s": "索尔赫卡忒", "ch_t": "靈魂赫卡忒" }, "icon": "../../common/sol-hecate.webp" },
-      { "names": { "en": "Mana Overload", "ch_s": "奥术超控", "ch_t": "祕術超越" }, "icon": "../../common/arcane-overdrive.png" }
+      { "names": { "en": "Mana Overload", "ch_s": "奥术超控", "ch_t": "祕術超越" }, "icon": "../../common/arcane-overdrive-bishop.png" }
     ]
   },
   "Blaster": {
@@ -265,7 +265,7 @@
     "skill": [
       { "names": { "en": "Ascendant Shadow", "ch_s": "遮天箭影", "ch_t": "箭影紛飛" }, "icon": "ascendant-shadow.png", "t": "origin" },
       { "names": { "en": "Flashpoint", "ch_s": "零点", "ch_t": "零點射擊" }, "icon": "flashpoint.png", "t": "ascent" },
-      { "names": { "en": "Chaser Shot", "ch_s": "追猎射击", "ch_t": "追獵射擊" }, "icon": "", "t": "third" }
+      { "names": { "en": "Eye of Aquila", "ch_s": "苍鹰之瞳", "ch_t": "蒼鷹之瞳" }, "icon": "eye-of-aquila.png", "t": "third" }
     ],
     "mastery": [
       { "names": { "en": "HEXA Hurricane", "ch_s": "暴风箭雨VI", "ch_t": "暴風神射VI" }, "icon": "hexa-hurricane.png" },
@@ -282,7 +282,33 @@
     "common": [
       { "names": { "en": "Sol Janus: Dawn / Sol Janus: Twilight", "ch_s": "索尔亚努斯", "ch_t": "靈魂雅努斯" }, "icon": "../../common/sol-janus.webp" },
       { "names": { "en": "Sol Hecate: Styx / Charon / Phlegethon", "ch_s": "索尔赫卡忒", "ch_t": "靈魂赫卡忒" }, "icon": "../../common/sol-hecate.webp" },
-      { "names": { "en": "Fury of the Wild", "ch_s": "向导之箭", "ch_t": "追蹤箭頭" }, "icon": "../../common/guided-arrow.png" }
+      { "names": { "en": "Fury of the Wild", "ch_s": "向导之箭", "ch_t": "追蹤箭頭" }, "icon": "../../common/fury-of-the-wild.png" }
+    ]
+  },
+  "Buccaneer": {
+    "names": { "en": "Buccaneer", "ch_s": "拳霸", "ch_t": "拳霸" },
+    "faction": "explorer",
+    "skill": [
+      { "names": { "en": "Unleash Neptunus", "ch_s": "海龙现世", "ch_t": "海龍霸拳" }, "icon": "unleash-neptunus.png", "t": "origin" },
+      { "names": { "en": "Haymaker", "ch_s": "重拳出击", "ch_t": "強力打擊" }, "icon": "haymaker.png", "t": "ascent" },
+      { "names": { "en": "Neptunus Advent", "ch_s": "龙魂蓄力", "ch_t": "龍魂蓄力" }, "icon": "neptunus-advent.png", "t": "third" }
+    ],
+    "mastery": [
+      { "names": { "en": "HEXA Octopunch", "ch_s": "激怒拳", "ch_t": "閃‧連殺" }, "icon": "octopunch.png" },
+      { "names": { "en": "HEXA Sea Serpent / Nautilus Strike", "ch_s": "水龙VI / 诺特勒斯战舰", "ch_t": "海龍VI / 戰艦鯨魚號VI" }, "icon": "nautilus-strike.png" },
+      { "names": { "en": "HEXA Serpent Scale", "ch_s": "水龙石", "ch_t": "海龍石" }, "icon": "serpent-scale.png" },
+      { "names": { "en": "HEXA Hook Bomber", "ch_s": "轰炸机", "ch_t": "勾拳爆破" }, "icon": "hook-bomber.png" }
+    ],
+    "boost": [
+      { "names": { "en": "Lightning Form", "ch_s": "闪电泡泡", "ch_t": "海之霸主" }, "icon": "lightning-form.png" },
+      { "names": { "en": "Lord of the Deep", "ch_s": "海龙螺旋", "ch_t": "海龍螺旋" }, "icon": "serpent-vortex.png" },
+      { "names": { "en": "Serpent Vortex", "ch_s": "怒涛拍岸", "ch_t": "海龍衝鋒" }, "icon": "serpent-vortex.png" },
+      { "names": { "en": "Howling Fist", "ch_s": "怒吼拳", "ch_t": "海龍正拳" }, "icon": "howling-fist.png" }
+    ],
+    "common": [
+      { "names": { "en": "Sol Janus: Dawn / Sol Janus: Twilight", "ch_s": "索尔亚努斯", "ch_t": "靈魂雅努斯" }, "icon": "../../common/sol-janus.webp" },
+      { "names": { "en": "Sol Hecate: Styx / Charon / Phlegethon", "ch_s": "索尔赫卡忒", "ch_t": "靈魂赫卡忒" }, "icon": "../../common/sol-hecate.webp" },
+      { "names": { "en": "Pirate\u0027s Banner", "ch_s": "海盗旗", "ch_t": "海盜旗幟" }, "icon": "pirate-banner.png" }
     ]
   },
   "Cadena": {
@@ -337,18 +363,18 @@
       { "names": { "en": "Pirate\u0027s Banner", "ch_s": "海盗旗", "ch_t": "海盜旗幟" }, "icon": "../../common/pirate-s-banner.png" }
     ]
   },
-  "Captain": {
-    "names": { "en": "Captain", "ch_s": "船长", "ch_t": "船長" },
+  "Corsair": {
+    "names": { "en": "Corsair", "ch_s": "船长", "ch_t": "船長" },
     "faction": "explorer",
     "skill": [
       { "names": { "en": "The Dreadnought", "ch_s": "无畏舰", "ch_t": "非常召集" }, "icon": "the-dreadnought.png", "t": "origin" },
       { "names": { "en": "Firecracker Fusilade", "ch_s": "爆裂散射", "ch_t": "爆裂散射" }, "icon": "firecracker-fusillade.png", "t": "ascent" },
-      { "names": { "en": "Commanding Cannonade", "ch_s": "指挥炮击", "ch_t": "指揮砲擊" }, "icon": "", "t": "third" }
+      { "names": { "en": "Aerial Bombardment", "ch_s": "指挥炮击", "ch_t": "指揮砲擊" }, "icon": "aerial-bombardment.png", "t": "third" }
     ],
     "mastery": [
       { "names": { "en": "HEXA Rapid Fire", "ch_s": "金属风暴VI", "ch_t": "瞬‧迅雷VI" }, "icon": "hexa-rapid-fire.png" },
       { "names": { "en": "HEXA Broadside", "ch_s": "战船轰炸机VI", "ch_t": "海盜砲擊艇VI" }, "icon": "hexa-broadside.png" },
-      { "names": { "en": "HEXA Brain Scrambler / Eight-Legs Easton / Firing Orders", "ch_s": "爆头VI / 齐射VI", "ch_t": "爆頭射擊VI / 霸王射VI" }, "icon": "hexa-brain-scrambler.png" },
+      { "names": { "en": "HEXA Brain Scrambler / Eight-Legs Easton / Firing Orders", "ch_s": "爆头VI / 齐射VI / 炮击风暴", "ch_t": "爆頭射擊VI / 霸王射VI" }, "icon": "hexa-brain-scrambler.png" },
       { "names": { "en": "HEXA Siege Bomber / Scurvy Summons / Nautilus Strike / Ugly Bomb", "ch_s": "种子炸弹VI / 召唤船员VI / 诺特勒斯战舰VI / 奇异炸弹VI", "ch_t": "攻城轟炸機VI / 召喚船員VI / 戰艦鯨魚號VI / 核爆巨彈VI" }, "icon": "hexa-siege-bomber.png" }
     ],
     "boost": [
@@ -360,7 +386,7 @@
     "common": [
       { "names": { "en": "Sol Janus: Dawn / Sol Janus: Twilight", "ch_s": "索尔亚努斯", "ch_t": "靈魂雅努斯" }, "icon": "../../common/sol-janus.webp" },
       { "names": { "en": "Sol Hecate: Styx / Charon / Phlegethon", "ch_s": "索尔赫卡忒", "ch_t": "靈魂赫卡忒" }, "icon": "../../common/sol-hecate.webp" },
-      { "names": { "en": "Pirate\u0027s Banner", "ch_s": "海盗旗", "ch_t": "海盜旗幟" }, "icon": "../../common/pirate-s-banner.png" }
+      { "names": { "en": "Pirate\u0027s Banner", "ch_s": "海盗旗", "ch_t": "海盜旗幟" }, "icon": "pirate-banner.png" }
     ]
   },
   "Dark Knight": {
@@ -369,13 +395,13 @@
     "skill": [
       { "names": { "en": "Dead Space", "ch_s": "亡命领域", "ch_t": "滅世永恆之槍" }, "icon": "dead-space.png", "t": "origin" },
       { "names": { "en": "Dark Halidom", "ch_s": "黑暗圣器", "ch_t": "黑暗契約" }, "icon": "dark-halidom.png", "t": "ascent" },
-      { "names": { "en": "Darkness of Grace", "ch_s": "恩典之暗", "ch_t": "恩典之闇" }, "icon": "", "t": "third" }
+      { "names": { "en": "Darkness of Grace", "ch_s": "恩典之暗", "ch_t": "恩典之闇" }, "icon": "darkness-of-grace.png", "t": "third" }
     ],
     "mastery": [
       { "names": { "en": "HEXA Gungnir\u0027s Descent", "ch_s": "永恒之枪VI", "ch_t": "岡格尼爾之擊VI" }, "icon": "hexa-gungnir-s-descent.png" },
       { "names": { "en": "HEXA Dark Impale / Nightshade Explosion", "ch_s": "黑暗穿刺VI / 黑暗融合VI", "ch_t": "暗炎斬連殺VI / 黑暗統合VI" }, "icon": "hexa-dark-impale-nightshade-explosion.png" },
-      { "names": { "en": "HEXA Beholder Revenge / Final Attack", "ch_s": "", "ch_t": "" }, "icon": "hexa-beholder-revenge-final-attack.png" },
-      { "names": { "en": "HEXA Beholder Shock", "ch_s": "", "ch_t": "" }, "icon": "" }
+      { "names": { "en": "HEXA Revenge of the Evil Eye / Final Attack", "ch_s": "灵魂复仇", "ch_t": "闇靈復仇" }, "icon": "hexa-beholder-revenge-final-attack.png" },
+      { "names": { "en": "HEXA Evil Eye Shock", "ch_s": "灵魂助力", "ch_t": "追隨者" }, "icon": "evil-eye-shock.png" }
     ],
     "boost": [
       { "names": { "en": "Spear of Darkness", "ch_s": "黑暗之矛", "ch_t": "斷罪之槍" }, "icon": "spear-of-darkness.png" },
@@ -386,7 +412,7 @@
     "common": [
       { "names": { "en": "Sol Janus: Dawn / Sol Janus: Twilight", "ch_s": "索尔亚努斯", "ch_t": "靈魂雅努斯" }, "icon": "../../common/sol-janus.webp" },
       { "names": { "en": "Sol Hecate: Styx / Charon / Phlegethon", "ch_s": "索尔赫卡忒", "ch_t": "靈魂赫卡忒" }, "icon": "../../common/sol-hecate.webp" },
-      { "names": { "en": "Blitz Shield / Blitz Burst", "ch_s": "攻势之盾 / 闪电爆发", "ch_t": "突擊之盾 / 突擊爆發" }, "icon": "../../common/blitz-shield.png" }
+      { "names": { "en": "Blitz Shield / Blitz Burst", "ch_s": "攻势之盾 / 闪电爆发", "ch_t": "突擊之盾 / 突擊爆發" }, "icon": "../../common/blitz-shield-darkknight.png" }
     ]
   },
   "Dawn Warrior": {
@@ -395,7 +421,7 @@
     "skill": [
       { "names": { "en": "Astral Blitz", "ch_s": "裂变星辰", "ch_t": "銀河星爆" }, "icon": "astral-blitz.png", "t": "origin" },
       { "names": { "en": "Totality", "ch_s": "全蚀之力", "ch_t": "全蝕之力" }, "icon": "totality.png", "t": "ascent" },
-      { "names": { "en": "Sol Equinox", "ch_s": "日月交辉", "ch_t": "日月交輝" }, "icon": "", "t": "third" }
+      { "names": { "en": "Sol Equinox", "ch_s": "日月交辉", "ch_t": "日月交輝" }, "icon": "sol-equinox.png", "t": "third" }
     ],
     "mastery": [
       { "names": { "en": "HEXA Lunar Divide/HEXA Solar Slash", "ch_s": "月神分裂强化 / 太阳抨击VI", "ch_t": "月光分裂強化 / 烈日狂斬VI" }, "icon": "solar-slash-and-luna-divide-boost.png" },
@@ -473,12 +499,12 @@
     "skill": [
       { "names": { "en": "Karma Blade", "ch_s": "业障之刃", "ch_t": "無盡阿修羅" }, "icon": "karma-blade.png", "t": "origin" },
       { "names": { "en": "Yama\u0027s Decree", "ch_s": "无尽裁决", "ch_t": "閻王敕令" }, "icon": "yama-s-decree.png", "t": "ascent" },
-      { "names": { "en": "Sunder Blade", "ch_s": "裂地之刃", "ch_t": "裂地之刃" }, "icon": "", "t": "third" }
+      { "names": { "en": "Dark Shadow Slash", "ch_s": "裂地之刃", "ch_t": "裂地之刃" }, "icon": "dark-shadow-slash.png", "t": "third" }
     ],
     "mastery": [
       { "names": { "en": "HEXA Phantom Blow", "ch_s": "幽灵一击VI", "ch_t": "幻影劍VI" }, "icon": "hexa-phantom-blow.png" },
-      { "names": { "en": "HEXA Asura", "ch_s": "阿修罗VI", "ch_t": "修羅VI" }, "icon": "hexa-asura-s-anger.png" },
-      { "names": { "en": "HEXA Blade Clone / [Death of Life and Death]", "ch_s": "隐形剑VI", "ch_t": "隱藏刀VI" }, "icon": "hexa-blade-clone.png" },
+      { "names": { "en": "HEXA Asura's Anger", "ch_s": "阿修罗VI", "ch_t": "修羅VI" }, "icon": "hexa-asura-s-anger.png" },
+      { "names": { "en": "HEXA Blade Clone / Mortality", "ch_s": "隐形剑VI / 生者必灭", "ch_t": "隱藏刀VI / 生者必滅" }, "icon": "hexa-blade-clone.png" },
       { "names": { "en": "HEXA Sudden Raid / Blade Fury", "ch_s": "突然袭击VI / 暴怒刀阵VI", "ch_t": "穢土轉生VI / 短刀護佑VI" }, "icon": "hexa-sudden-raid.png" }
     ],
     "boost": [
@@ -490,7 +516,7 @@
     "common": [
       { "names": { "en": "Sol Janus: Dawn / Sol Janus: Twilight", "ch_s": "索尔亚努斯", "ch_t": "靈魂雅努斯" }, "icon": "../../common/sol-janus.webp" },
       { "names": { "en": "Sol Hecate: Styx / Charon / Phlegethon", "ch_s": "索尔赫卡忒", "ch_t": "靈魂赫卡忒" }, "icon": "../../common/sol-hecate.webp" },
-      { "names": { "en": "Ultimate Dark Sight", "ch_s": "终极隐身术", "ch_t": "終極隱身術" }, "icon": "" }
+      { "names": { "en": "Shadow Walker", "ch_s": "终极隐身术", "ch_t": "終極隱身術" }, "icon": "shadow-walker.png" }
     ]
   },
   "Evan": {
@@ -568,7 +594,7 @@
     "common": [
       { "names": { "en": "Sol Janus: Dawn / Sol Janus: Twilight", "ch_s": "索尔亚努斯", "ch_t": "靈魂雅努斯" }, "icon": "../../common/sol-janus.webp" },
       { "names": { "en": "Sol Hecate: Styx / Charon / Phlegethon", "ch_s": "索尔赫卡忒", "ch_t": "靈魂赫卡忒" }, "icon": "../../common/sol-hecate.webp" },
-      { "names": { "en": "Blitz Shield / Blitz Burst", "ch_s": "攻势之盾", "ch_t": "突擊之盾" }, "icon": "../../common/blitz-shield.png" }
+      { "names": { "en": "Blitz Shield / Blitz Burst", "ch_s": "攻势之盾", "ch_t": "突擊之盾" }, "icon": "../../common/blitz-shield-hero.png" }
     ]
   },
   "Hoyoung": {
@@ -836,14 +862,14 @@
     "faction": "explorer",
     "skill": [
       { "names": { "en": "Final Aim", "ch_s": "终极瞄准", "ch_t": "裂空狙擊" }, "icon": "final-aim.png", "t": "origin" },
-      { "names": { "en": "Fatal Trigger", "ch_s": "", "ch_t": "" }, "icon": "", "t": "ascent" },
-      { "names": { "en": "Pinpoint Tracking", "ch_s": "精准追踪", "ch_t": "精準追蹤" }, "icon": "", "t": "third" }
+      { "names": { "en": "Fatal Trigger", "ch_s": "致命扳机", "ch_t": "絕命板機" }, "icon": "fatal-trigger.png", "t": "ascent" },
+      { "names": { "en": "Lethal Punisher", "ch_s": "致命惩戒者", "ch_t": "致命懲戒者" }, "icon": "lethal-punisher.png", "t": "third" }
     ],
     "mastery": [
-      { "names": { "en": "HEXA Snipe", "ch_s": "一击要害箭VI", "ch_t": "必殺狙擊VI" }, "icon": "hexa-snipe.png" },
-      { "names": { "en": "HEXA Piercing", "ch_s": "穿透箭VI", "ch_t": "光速神弩VI" }, "icon": "hexa-piercing-arrow.png" },
-      { "names": { "en": "HEXA Frostprey / Bolt Burst", "ch_s": "迅捷弩箭VI / 终极攻击VI", "ch_t": "迅捷射擊VI / 終極攻擊VI" }, "icon": "hexa-bolt-burst-final-attack.png" },
-      { "names": { "en": "HEXA High Speed Shot / Final Attack", "ch_s": "", "ch_t": "" }, "icon": "" }
+      { "names": { "en": "HEXA Snipe", "ch_s": "一击要害箭", "ch_t": "必殺狙擊" }, "icon": "hexa-snipe.png" },
+      { "names": { "en": "HEXA Piercing Arrow", "ch_s": "穿透箭", "ch_t": "光速神弩" }, "icon": "hexa-piercing-arrow.png" },
+      { "names": { "en": "HEXA Frostprey / Bolt Burst", "ch_s": "冰凤凰 / 迅捷闪电", "ch_t": "召喚銀隼 / 迅捷射擊" }, "icon": "hexa-bolt-burst-final-attack.png" },
+      { "names": { "en": "HEXA High Speed Shot / Final Attack", "ch_s": "远程强击 / 终极攻击", "ch_t": "狙殺之擊 / 終極攻擊" }, "icon": "high-speed-shot.png" }
     ],
     "boost": [
       { "names": { "en": "Perfect Shot", "ch_s": "真一击要害箭", "ch_t": "真必殺狙擊" }, "icon": "perfect-shot.png" },
@@ -854,7 +880,7 @@
     "common": [
       { "names": { "en": "Sol Janus: Dawn / Sol Janus: Twilight", "ch_s": "索尔亚努斯", "ch_t": "靈魂雅努斯" }, "icon": "../../common/sol-janus.webp" },
       { "names": { "en": "Sol Hecate: Styx / Charon / Phlegethon", "ch_s": "索尔赫卡忒", "ch_t": "靈魂赫卡忒" }, "icon": "../../common/sol-hecate.webp" },
-      { "names": { "en": "Fury of the Wild", "ch_s": "向导之箭", "ch_t": "追蹤箭頭" }, "icon": "../../common/guided-arrow.png" }
+      { "names": { "en": "Fury of the Wild", "ch_s": "向导之箭", "ch_t": "追蹤箭頭" }, "icon": "../../common/fury-of-the-wild-mm.png" }
     ]
   },
   "Mechanic": {
@@ -967,12 +993,12 @@
     "skill": [
       { "names": { "en": "Life and Death", "ch_s": "生死予夺", "ch_t": "禁咒之符" }, "icon": "life-and-death.png", "t": "origin" },
       { "names": { "en": "Deep Strike", "ch_s": "关键袭击", "ch_t": "致命突襲" }, "icon": "deep-strike.png", "t": "ascent" },
-      { "names": { "en": "Shadow Ritual", "ch_s": "暗影仪式", "ch_t": "暗影儀式" }, "icon": "", "t": "third" }
+      { "names": { "en": "Shadow Ritual", "ch_s": "暗影仪式", "ch_t": "暗影儀式" }, "icon": "shadow-ritual.png", "t": "third" }
     ],
     "mastery": [
       { "names": { "en": "HEXA Quad Star", "ch_s": "四连镖VI", "ch_t": "四飛閃VI" }, "icon": "hexa-quad-star.png" },
       { "names": { "en": "HEXA Assassin\u0027s Mark", "ch_s": "刺客标记VI", "ch_t": "刺客刻印VI" }, "icon": "hexa-assassin-s-mark.png" },
-      { "names": { "en": "HEXA Dark Flare / Showdown / [Darkness Shuriken]", "ch_s": "黑暗杂耍VI / 决战之巅VI / 暗黑飞镖", "ch_t": "絕殺領域VI / 挑釁契約VI / 闇影手裏劍" }, "icon": "hexa-dark-flare-showdown-darkness-shuriken.png" },
+      { "names": { "en": "HEXA Dark Flare / Showdown / Darkness Shuriken", "ch_s": "黑暗杂耍VI / 决战之巅VI / 暗黑飞镖", "ch_t": "絕殺領域VI / 挑釁契約VI / 闇影手裏劍" }, "icon": "hexa-dark-flare-showdown-darkness-shuriken.png" },
       { "names": { "en": "HEXA Sudden Raid / Death Star", "ch_s": "突然袭击VI / 四季飞镖VI", "ch_t": "穢土轉生VI / 四星鏢雨VI" }, "icon": "hexa-sudden-raid-death-star.png" }
     ],
     "boost": [
@@ -984,7 +1010,7 @@
     "common": [
       { "names": { "en": "Sol Janus: Dawn / Sol Janus: Twilight", "ch_s": "索尔亚努斯", "ch_t": "靈魂雅努斯" }, "icon": "../../common/sol-janus.webp" },
       { "names": { "en": "Sol Hecate: Styx / Charon / Phlegethon", "ch_s": "索尔赫卡忒", "ch_t": "靈魂赫卡忒" }, "icon": "../../common/sol-hecate.webp" },
-      { "names": { "en": "Ultimate Dark Sight", "ch_s": "终极隐身术", "ch_t": "終極隱身術" }, "icon": "" }
+      { "names": { "en": "Shadow Walker", "ch_s": "终极隐身术", "ch_t": "終極隱身術" }, "icon": "shadow-walker.png" }
     ]
   },
   "Night Walker": {
@@ -1019,7 +1045,7 @@
     "skill": [
       { "names": { "en": "Sacred Bastion", "ch_s": "神圣堡垒", "ch_t": "聖域展開" }, "icon": "sacred-bastion.png", "t": "origin" },
       { "names": { "en": "Dominus Oblivion", "ch_s": "主神遗落", "ch_t": "聖獅之主" }, "icon": "dominus-oblivion.png", "t": "ascent" },
-      { "names": { "en": "Divine Convergence", "ch_s": "神圣汇聚", "ch_t": "神聖匯聚" }, "icon": "", "t": "third" }
+      { "names": { "en": "Divine Convergence", "ch_s": "神圣汇聚", "ch_t": "神聖匯聚" }, "icon": "divine-convergence.png", "t": "third" }
     ],
     "mastery": [
       { "names": { "en": "HEXA Blast", "ch_s": "连环环破VI", "ch_t": "騎士衝擊波VI" }, "icon": "hexa-blast.png" },
@@ -1031,12 +1057,12 @@
       { "names": { "en": "Divine Echo", "ch_s": "神圣归一", "ch_t": "神聖團結" }, "icon": "divine-echo.png" },
       { "names": { "en": "Hammers of the Righteous", "ch_s": "祝福之锤", "ch_t": "祝福之鎚" }, "icon": "hammers-of-the-righteous.png" },
       { "names": { "en": "Grand Guardian", "ch_s": "崇高十字", "ch_t": "聖十字架" }, "icon": "grand-guardian.png" },
-      { "names": { "en": "Might Mjolnir", "ch_s": "", "ch_t": "" }, "icon": "" }
+      { "names": { "en": "Mighty Mjolnir", "ch_s": "威力神锤强化", "ch_t": "強化雷神戰鎚" }, "icon": "mighty-mjolnir.png" }
     ],
     "common": [
       { "names": { "en": "Sol Janus: Dawn / Sol Janus: Twilight", "ch_s": "索尔亚努斯", "ch_t": "靈魂雅努斯" }, "icon": "../../common/sol-janus.webp" },
       { "names": { "en": "Sol Hecate: Styx / Charon / Phlegethon", "ch_s": "索尔赫卡忒", "ch_t": "靈魂赫卡忒" }, "icon": "../../common/sol-hecate.webp" },
-      { "names": { "en": "Blitz Shield / Blitz Burst", "ch_s": "", "ch_t": "" }, "icon": "../../common/blitz-shield-blitz-burst.png" }
+      { "names": { "en": "Blitz Shield / Blitz Burst", "ch_s": "攻势之盾", "ch_t": "突擊之盾" }, "icon": "../../common/blitz-shield-paladin.png" }
     ]
   },
   "Pathfinder": {
@@ -1044,17 +1070,17 @@
     "faction": "explorer",
     "skill": [
       { "names": { "en": "Forsaken Relic", "ch_s": "远古遗物", "ch_t": "忘卻遺跡" }, "icon": "forsaken-relic.png", "t": "origin" },
-      { "names": { "en": "Piercing Relic", "ch_s": "", "ch_t": "" }, "icon": "", "t": "ascent" },
-      { "names": { "en": "Echoing Curse", "ch_s": "回响诅咒", "ch_t": "迴響詛咒" }, "icon": "", "t": "third" }
+      { "names": { "en": "Piercing Relic", "ch_s": "遗物穿透", "ch_t": "遺物貫穿" }, "icon": "piercing-relic.png", "t": "ascent" },
+      { "names": { "en": "Material Burst", "ch_s": "回响诅咒", "ch_t": "迴響詛咒" }, "icon": "material-burst.png", "t": "third" }
     ],
     "mastery": [
-      { "names": { "en": "HEXA Cardinal Blast", "ch_s": "暗红星爆VI / 暗红释魂VI", "ch_t": "基本爆破VI / 基本釋放VI" }, "icon": "hexa-cardinal-burst-cardinal-deluge.png" },
-      { "names": { "en": "HEXA Cardinal Deluge / Bountiful Deluge", "ch_s": "主教转换VI / 远古杀阵VI", "ch_t": "基本轉移VI / 古代神矢VI" }, "icon": "hexa-cardinal-torrent-ancient-astra.png" },
-      { "names": { "en": "HEXA Edge of Resonance / Cardinal Torrent / Ancient Astra", "ch_s": "", "ch_t": "" }, "icon": "" },
-      { "names": { "en": "HEXA Shadow Raven / Combo Assault / [Relic Materialization]", "ch_s": "", "ch_t": "" }, "icon": "hexa-shadow-raven-cursebond-curse-transition.png" }
+      { "names": { "en": "HEXA Cardinal Blast / Bountiful Burst", "ch_s": "暗红星爆 / 追加星爆", "ch_t": "基本爆破 / 附加爆破" }, "icon": "hexa-cardinal-burst-cardinal-deluge.png" },
+      { "names": { "en": "HEXA Cardinal Deluge / Bountiful Deluge", "ch_s": "主教转换VI / 远古杀阵VI", "ch_t": "基本釋放 / 附加釋放" }, "icon": "hexa-cardinal-torrent-ancient-astra.png" },
+      { "names": { "en": "HEXA Glyph of Impalement / Cardinal Torrent / Ancient Astra", "ch_s": "共振之刃 / 主教转换 / 远古杀阵", "ch_t": "稜之共鳴 / 基本轉移 / 古代神矢" }, "icon": "glyph-of-impalement.png" },
+      { "names": { "en": "HEXA Shadow Raven / Combo Assault / Manifest Curse", "ch_s": "渡鸦 / 连珠突袭 / ", "ch_t": "渡鴉召喚 / 連段襲擊 / 遺跡顯現" }, "icon": "hexa-shadow-raven-cursebond-curse-transition.png" }
     ],
     "boost": [
-      { "names": { "en": "Nova Blast", "ch_s": "", "ch_t": "" }, "icon": "" },
+      { "names": { "en": "Nova Blast", "ch_s": "终极爆破箭", "ch_t": "究極炸裂" }, "icon": "nova-blast.png" },
       { "names": { "en": "Raven Tempest/Fury of the Wild Tempest", "ch_s": "古代风暴", "ch_t": "古代風暴" }, "icon": "raven-tempest.png" },
       { "names": { "en": "Obsidian Barrier", "ch_s": "黑曜石屏障", "ch_t": "黑曜石屏障" }, "icon": "obsidian-barrier.png" },
       { "names": { "en": "Relic Unbound", "ch_s": "遗物释放", "ch_t": "遺跡解放" }, "icon": "relic-unbound.png" }
@@ -1062,7 +1088,7 @@
     "common": [
       { "names": { "en": "Sol Janus: Dawn / Sol Janus: Twilight", "ch_s": "索尔亚努斯", "ch_t": "靈魂雅努斯" }, "icon": "../../common/sol-janus.webp" },
       { "names": { "en": "Sol Hecate: Styx / Charon / Phlegethon", "ch_s": "索尔赫卡忒", "ch_t": "靈魂赫卡忒" }, "icon": "../../common/sol-hecate.webp" },
-      { "names": { "en": "Fury of the Wild", "ch_s": "向导之箭", "ch_t": "追蹤箭頭" }, "icon": "../../common/guided-arrow.png" }
+      { "names": { "en": "Fury of the Wild", "ch_s": "向导之箭", "ch_t": "追蹤箭頭" }, "icon": "../../common/guided-arrow-pf.png" }
     ]
   },
   "Phantom": {
@@ -1147,15 +1173,15 @@
     "names": { "en": "Shadower", "ch_s": "暗影神偷", "ch_t": "暗影神偷" },
     "faction": "explorer",
     "skill": [
-      { "names": { "en": "Halve Cut", "ch_s": "", "ch_t": "" }, "icon": "", "t": "origin" },
-      { "names": { "en": "Covetous Darkness", "ch_s": "", "ch_t": "" }, "icon": "", "t": "ascent" },
-      { "names": { "en": "Bloody Coin", "ch_s": "血色硬币", "ch_t": "血色硬幣" }, "icon": "", "t": "third" }
+      { "names": { "en": "Halve Cut", "ch_s": "一刀两断", "ch_t": "一刀兩斷" }, "icon": "halve-cut.png", "t": "origin" },
+      { "names": { "en": "Covetous Darkness", "ch_s": "至暗真理", "ch_t": "至暗真理" }, "icon": "covetous-darkness.png", "t": "ascent" },
+      { "names": { "en": "Void Trance", "ch_s": "血色硬币", "ch_t": "血色硬幣" }, "icon": "void-trance.png", "t": "third" }
     ],
     "mastery": [
       { "names": { "en": "HEXA Assassinate", "ch_s": "暗杀VI", "ch_t": "致命暗殺VI" }, "icon": "hexa-assassinate.png" },
       { "names": { "en": "HEXA Meso Explosion", "ch_s": "金钱炸弹VI", "ch_t": "楓幣炸彈VI" }, "icon": "hexa-meso-explosion.png" },
-      { "names": { "en": "HEXA Cruel Stab / Dark Flare", "ch_s": "", "ch_t": "" }, "icon": "hexa-dark-flare-boomerang-stab-shadow-blade.png" },
-      { "names": { "en": "HEXA Sudden Raid / Shadow Veil / [Covert Shadow]", "ch_s": "", "ch_t": "" }, "icon": "hexa-sudden-raid-veil-of-shadows.png" }
+      { "names": { "en": "HEXA Cruel Stab / Dark Flare", "ch_s": "残酷捅刺 / 黑暗杂耍", "ch_t": "冷血連擊 / 絕殺領域" }, "icon": "hexa-dark-flare-boomerang-stab-shadow-blade.png" },
+      { "names": { "en": "HEXA Sudden Raid / Shadow Veil / Covert Edge", "ch_s": "突然袭击 / 潜影杀机 / 隐秘暗影", "ch_t": "穢土轉生 / 暗影霧殺 / 暗影之隱" }, "icon": "hexa-sudden-raid-veil-of-shadows.png" }
     ],
     "boost": [
       { "names": { "en": "Shadow Assault", "ch_s": "暗影抨击", "ch_t": "滅殺刃影" }, "icon": "shadow-assault.png" },
@@ -1166,7 +1192,7 @@
     "common": [
       { "names": { "en": "Sol Janus: Dawn / Sol Janus: Twilight", "ch_s": "索尔亚努斯", "ch_t": "靈魂雅努斯" }, "icon": "../../common/sol-janus.webp" },
       { "names": { "en": "Sol Hecate: Styx / Charon / Phlegethon", "ch_s": "索尔赫卡忒", "ch_t": "靈魂赫卡忒" }, "icon": "../../common/sol-hecate.webp" },
-      { "names": { "en": "Ultimate Dark Sight", "ch_s": "终极隐身术", "ch_t": "終極隱身術" }, "icon": "" }
+      { "names": { "en": "Shadow Walker", "ch_s": "终极隐身术", "ch_t": "終極隱身術" }, "icon": "shadow-walker.png" }
     ]
   },
   "Thunder Breaker": {
@@ -1193,32 +1219,6 @@
       { "names": { "en": "Sol Janus: Dawn / Sol Janus: Twilight", "ch_s": "索尔亚努斯", "ch_t": "靈魂雅努斯" }, "icon": "../../common/sol-janus.webp" },
       { "names": { "en": "Sol Hecate: Styx / Charon / Phlegethon", "ch_s": "索尔赫卡忒", "ch_t": "靈魂赫卡忒" }, "icon": "../../common/sol-hecate.webp" },
       { "names": { "en": "Phalanx Charge", "ch_s": "希纳斯骑士团方阵", "ch_t": "西格諾斯槍兵陣" }, "icon": "" }
-    ]
-  },
-  "Viper": {
-    "names": { "en": "Viper", "ch_s": "拳霸", "ch_t": "拳霸" },
-    "faction": "explorer",
-    "skill": [
-      { "names": { "en": "Unleash Neptunus", "ch_s": "", "ch_t": "" }, "icon": "", "t": "origin" },
-      { "names": { "en": "Haymaker", "ch_s": "", "ch_t": "" }, "icon": "", "t": "ascent" },
-      { "names": { "en": "Dragon Soul Charge", "ch_s": "龙魂蓄力", "ch_t": "龍魂蓄力" }, "icon": "", "t": "third" }
-    ],
-    "mastery": [
-      { "names": { "en": "HEXA Octopunch", "ch_s": "", "ch_t": "" }, "icon": "" },
-      { "names": { "en": "HEXA Sea Serpent / Nautilus Strike", "ch_s": "轰炸机VI / 水龙迸发VI", "ch_t": "勾拳爆破VI / 海龍爆裂VI" }, "icon": "hexa-hook-bomber-sea-serpent-burst.png" },
-      { "names": { "en": "HEXA Serpent Scale", "ch_s": "", "ch_t": "" }, "icon": "" },
-      { "names": { "en": "HEXA Hook Bomber", "ch_s": "", "ch_t": "" }, "icon": "hexa-dragon-strike-octopunch-turnpike.png" }
-    ],
-    "boost": [
-      { "names": { "en": "Lightning Form", "ch_s": "", "ch_t": "" }, "icon": "" },
-      { "names": { "en": "Lord of the Deep", "ch_s": "怒涛拍岸", "ch_t": "海龍衝鋒" }, "icon": "serpent-vortex.png" },
-      { "names": { "en": "Serpent Vortex", "ch_s": "", "ch_t": "" }, "icon": "" },
-      { "names": { "en": "Howling Fist", "ch_s": "怒吼拳", "ch_t": "海龍正拳" }, "icon": "howling-fist.png" }
-    ],
-    "common": [
-      { "names": { "en": "Sol Janus: Dawn / Sol Janus: Twilight", "ch_s": "索尔亚努斯", "ch_t": "靈魂雅努斯" }, "icon": "../../common/sol-janus.webp" },
-      { "names": { "en": "Sol Hecate: Styx / Charon / Phlegethon", "ch_s": "索尔赫卡忒", "ch_t": "靈魂赫卡忒" }, "icon": "../../common/sol-hecate.webp" },
-      { "names": { "en": "Pirate\u0027s Banner", "ch_s": "海盗旗", "ch_t": "海盜旗幟" }, "icon": "../../common/pirate-s-banner.png" }
     ]
   },
   "Wild Hunter": {
